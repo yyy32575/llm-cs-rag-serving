@@ -1,0 +1,29 @@
+{
+ "exp": "dpo_beta0.1",
+ "total": 400,
+ "failed": 74,
+ "by_type": {
+  "keypoint_missing": 30,
+  "context_ignored": 14,
+  "multi_turn_drift": 12,
+  "under_transfer": 8,
+  "outdated_policy": 4,
+  "over_transfer": 3,
+  "fact_error": 2,
+  "repetition": 1
+ },
+ "compare_with": "preds_sft_qlora_r16.jsonl",
+ "fixed": 34,
+ "broken": 12,
+ "win": 96,
+ "tie": 268,
+ "lose": 36,
+ "fixed_types": {
+  "under_transfer": 12,
+  "keypoint_missing": 9,
+  "context_ignored": 7,
+  "multi_turn_drift": 4,
+  "over_transfer": 2
+ },
+ "blind_win_rate": 0.62
+}

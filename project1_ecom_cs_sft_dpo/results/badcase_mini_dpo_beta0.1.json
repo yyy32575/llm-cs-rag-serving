@@ -1,0 +1,28 @@
+{
+  "exp": "mini_dpo_beta0.1",
+  "total": 400,
+  "failed": 306,
+  "by_type": {
+    "under_transfer": 19,
+    "repetition": 0,
+    "outdated_policy": 16,
+    "fact_error": 0,
+    "context_ignored": 13,
+    "multi_turn_drift": 43,
+    "over_transfer": 0,
+    "keypoint_missing": 215
+  },
+  "compare_with": "preds_mini_sft_r16.jsonl",
+  "fixed": 27,
+  "broken": 153,
+  "win": 74,
+  "tie": 102,
+  "lose": 224,
+  "fixed_types": {
+    "keypoint_missing": 20,
+    "outdated_policy": 1,
+    "context_ignored": 4,
+    "under_transfer": 1,
+    "multi_turn_drift": 1
+  }
+}

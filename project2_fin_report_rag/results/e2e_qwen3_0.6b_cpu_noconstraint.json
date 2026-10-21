@@ -1,0 +1,33 @@
+{
+  "answer_acc": 0.3627,
+  "citation_acc": 0.7727,
+  "refusal_recall": 0.9167,
+  "false_refusal_rate": 0.5294,
+  "by_type": {
+    "事实": 0.2222,
+    "事实-年份混淆": 0.0,
+    "同义改写": 0.7778,
+    "表格": 0.4783,
+    "对比": 0.1818,
+    "汇总": 0.8,
+    "政策": 0.5556,
+    "无答案": 0.9167
+  },
+  "latency_ms_avg": {
+    "recall": 47.3,
+    "rerank": 329.4,
+    "generate": 2946.2
+  },
+  "n": 114,
+  "unsupported_number_rate": 0.2807,
+  "badcase_types": {
+    "误拒答(证据已召回)": 54,
+    "生成幻觉(数字无出处)": 9,
+    "生成错误(证据在但答错)": 2,
+    "幻觉(无答案题未拒答)": 1
+  },
+  "backend": "hf",
+  "rerank": true,
+  "threshold": 0.15,
+  "total_seconds": 378.8
+}

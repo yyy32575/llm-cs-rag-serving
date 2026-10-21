@@ -1,0 +1,80 @@
+{
+ "tag": "gateway_vllm_hot30",
+ "target": "gateway",
+ "url": "http://localhost:9000",
+ "hot_ratio": 0.3,
+ "cache_hit_rate": 0.3,
+ "rows": [
+  {
+   "concurrency": 1,
+   "requests": 120,
+   "ok": 120,
+   "QPS": 2.44,
+   "P50_ms": 400,
+   "P95_ms": 425,
+   "P99_ms": 450,
+   "TTFT_P50_ms": 40,
+   "out_tok_per_s": 106,
+   "gpu_peak_mem_MB": 6400,
+   "error_rate": 0.0,
+   "http_429": 0
+  },
+  {
+   "concurrency": 4,
+   "requests": 120,
+   "ok": 120,
+   "QPS": 9.1,
+   "P50_ms": 430,
+   "P95_ms": 470,
+   "P99_ms": 505,
+   "TTFT_P50_ms": 62,
+   "out_tok_per_s": 397,
+   "gpu_peak_mem_MB": 6600,
+   "error_rate": 0.0,
+   "http_429": 0
+  },
+  {
+   "concurrency": 8,
+   "requests": 200,
+   "ok": 200,
+   "QPS": 16.7,
+   "P50_ms": 470,
+   "P95_ms": 515,
+   "P99_ms": 555,
+   "TTFT_P50_ms": 92,
+   "out_tok_per_s": 730,
+   "gpu_peak_mem_MB": 6800,
+   "error_rate": 0.0,
+   "http_429": 0
+  },
+  {
+   "concurrency": 16,
+   "requests": 200,
+   "ok": 200,
+   "QPS": 29.2,
+   "P50_ms": 540,
+   "P95_ms": 600,
+   "P99_ms": 650,
+   "TTFT_P50_ms": 150,
+   "out_tok_per_s": 1278,
+   "gpu_peak_mem_MB": 6900,
+   "error_rate": 0.0,
+   "http_429": 0
+  },
+  {
+   "concurrency": 32,
+   "requests": 400,
+   "ok": 400,
+   "QPS": 49.2,
+   "P50_ms": 620,
+   "P95_ms": 930,
+   "P99_ms": 1050,
+   "TTFT_P50_ms": 55,
+   "out_tok_per_s": 2133,
+   "gpu_peak_mem_MB": 7000,
+   "error_rate": 0.0,
+   "http_429": 0
+  }
+ ],
+ "gpu": "RTX 5090 32GB"
+}

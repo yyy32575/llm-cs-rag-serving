@@ -1,0 +1,38 @@
+{
+ "tag": "quant_awq_int4",
+ "target": "openai",
+ "model": "qwen3-8b-cs-awq_int4",
+ "quant": "awq_int4",
+ "model_size_gb": 4.6,
+ "rows": [
+  {
+   "concurrency": 1,
+   "requests": 60,
+   "ok": 60,
+   "QPS": null,
+   "P50_ms": null,
+   "P95_ms": null,
+   "P99_ms": null,
+   "TTFT_P50_ms": null,
+   "out_tok_per_s": 106,
+   "gpu_peak_mem_MB": 7000,
+   "error_rate": 0.0,
+   "http_429": 0
+  },
+  {
+   "concurrency": 32,
+   "requests": 400,
+   "ok": 400,
+   "QPS": null,
+   "P50_ms": null,
+   "P95_ms": null,
+   "P99_ms": null,
+   "TTFT_P50_ms": null,
+   "out_tok_per_s": 2133,
+   "gpu_peak_mem_MB": 7000,
+   "error_rate": 0.0,
+   "http_429": 0
+  }
+ ],
+ "gpu": "RTX 5090 32GB"
+}

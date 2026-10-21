@@ -1,0 +1,15 @@
+{
+  "exp": "mini_sft_r16",
+  "total": 400,
+  "failed": 180,
+  "by_type": {
+    "under_transfer": 11,
+    "repetition": 0,
+    "outdated_policy": 2,
+    "fact_error": 0,
+    "context_ignored": 11,
+    "multi_turn_drift": 26,
+    "over_transfer": 1,
+    "keypoint_missing": 129
+  }
+}

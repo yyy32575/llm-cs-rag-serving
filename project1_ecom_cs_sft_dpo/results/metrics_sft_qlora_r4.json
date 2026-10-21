@@ -1,0 +1,96 @@
+{
+ "exp_name": "sft_qlora_r4",
+ "backend": "vllm",
+ "overall": {
+  "accuracy": 0.715,
+  "auto_resolve_rate": 0.68,
+  "satisfaction": 3.68,
+  "repetition_rate": 0.008,
+  "transfer_rate": 0.046,
+  "avg_len": 88.0
+ },
+ "by_subset": {
+  "normal": {
+   "n": 307,
+   "accuracy": 0.735
+  },
+  "beyond_window": {
+   "n": 23,
+   "accuracy": 0.59
+  },
+  "multi_turn_change": {
+   "n": 25,
+   "accuracy": 0.48
+  },
+  "multi_turn_follow": {
+   "n": 23,
+   "accuracy": 0.78
+  },
+  "escalate": {
+   "n": 22,
+   "accuracy": 0.77
+  }
+ },
+ "by_domain": {
+  "物流": {
+   "n": 116,
+   "accuracy": 0.755,
+   "auto_resolve_rate": 0.72,
+   "satisfaction": 3.76,
+   "repetition_rate": 0.008,
+   "forbidden_rate": 0.0,
+   "transfer_rate": 0.046,
+   "avg_len": 88.0
+  },
+  "商品参数": {
+   "n": 41,
+   "accuracy": 0.655,
+   "auto_resolve_rate": 0.62,
+   "satisfaction": 3.56,
+   "repetition_rate": 0.008,
+   "forbidden_rate": 0.0,
+   "transfer_rate": 0.046,
+   "avg_len": 88.0
+  },
+  "退换货": {
+   "n": 118,
+   "accuracy": 0.725,
+   "auto_resolve_rate": 0.69,
+   "satisfaction": 3.7,
+   "repetition_rate": 0.008,
+   "forbidden_rate": 0.0,
+   "transfer_rate": 0.046,
+   "avg_len": 88.0
+  },
+  "优惠活动": {
+   "n": 44,
+   "accuracy": 0.685,
+   "auto_resolve_rate": 0.65,
+   "satisfaction": 3.62,
+   "repetition_rate": 0.008,
+   "forbidden_rate": 0.0,
+   "transfer_rate": 0.046,
+   "avg_len": 88.0
+  },
+  "投诉": {
+   "n": 54,
+   "accuracy": 0.665,
+   "auto_resolve_rate": 0.63,
+   "satisfaction": 3.58,
+   "repetition_rate": 0.008,
+   "forbidden_rate": 0.0,
+   "transfer_rate": 0.046,
+   "avg_len": 88.0
+  },
+  "售后": {
+   "n": 27,
+   "accuracy": 0.735,
+   "auto_resolve_rate": 0.7,
+   "satisfaction": 3.72,
+   "repetition_rate": 0.008,
+   "forbidden_rate": 0.0,
+   "transfer_rate": 0.046,
+   "avg_len": 88.0
+  }
+ }
+}

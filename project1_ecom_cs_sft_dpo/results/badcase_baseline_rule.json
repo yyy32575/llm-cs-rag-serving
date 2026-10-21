@@ -1,0 +1,15 @@
+{
+  "exp": "baseline_rule",
+  "total": 400,
+  "failed": 266,
+  "by_type": {
+    "under_transfer": 0,
+    "repetition": 0,
+    "outdated_policy": 0,
+    "fact_error": 3,
+    "context_ignored": 21,
+    "multi_turn_drift": 14,
+    "over_transfer": 195,
+    "keypoint_missing": 33
+  }
+}

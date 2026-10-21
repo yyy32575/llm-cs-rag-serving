@@ -1,0 +1,81 @@
+{
+ "tag": "vllm_awq",
+ "target": "openai",
+ "url": "http://localhost:8000/v1",
+ "model": "qwen3-8b-cs-awq",
+ "stream": true,
+ "max_tokens": 128,
+ "rows": [
+  {
+   "concurrency": 1,
+   "requests": 120,
+   "ok": 120,
+   "QPS": 1.71,
+   "P50_ms": 572,
+   "P95_ms": 619,
+   "P99_ms": 671,
+   "TTFT_P50_ms": 45,
+   "out_tok_per_s": 106,
+   "gpu_peak_mem_MB": 6400,
+   "error_rate": 0.0,
+   "http_429": 0
+  },
+  {
+   "concurrency": 4,
+   "requests": 120,
+   "ok": 120,
+   "QPS": 6.41,
+   "P50_ms": 611,
+   "P95_ms": 661,
+   "P99_ms": 718,
+   "TTFT_P50_ms": 70,
+   "out_tok_per_s": 397,
+   "gpu_peak_mem_MB": 6600,
+   "error_rate": 0.0,
+   "http_429": 0
+  },
+  {
+   "concurrency": 8,
+   "requests": 200,
+   "ok": 200,
+   "QPS": 11.78,
+   "P50_ms": 665,
+   "P95_ms": 720,
+   "P99_ms": 781,
+   "TTFT_P50_ms": 105,
+   "out_tok_per_s": 730,
+   "gpu_peak_mem_MB": 6800,
+   "error_rate": 0.0,
+   "http_429": 0
+  },
+  {
+   "concurrency": 16,
+   "requests": 200,
+   "ok": 200,
+   "QPS": 20.62,
+   "P50_ms": 760,
+   "P95_ms": 823,
+   "P99_ms": 892,
+   "TTFT_P50_ms": 180,
+   "out_tok_per_s": 1278,
+   "gpu_peak_mem_MB": 6900,
+   "error_rate": 0.0,
+   "http_429": 0
+  },
+  {
+   "concurrency": 32,
+   "requests": 400,
+   "ok": 400,
+   "QPS": 34.41,
+   "P50_ms": 911,
+   "P95_ms": 986,
+   "P99_ms": 1070,
+   "TTFT_P50_ms": 310,
+   "out_tok_per_s": 2133,
+   "gpu_peak_mem_MB": 7000,
+   "error_rate": 0.0,
+   "http_429": 0
+  }
+ ],
+ "gpu": "RTX 5090 32GB"
+}

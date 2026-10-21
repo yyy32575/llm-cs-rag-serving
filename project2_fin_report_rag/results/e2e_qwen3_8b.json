@@ -1,0 +1,32 @@
+{
+ "answer_acc": 0.86,
+ "citation_acc": 0.895,
+ "refusal_recall": 0.8333,
+ "false_refusal_rate": 0.0,
+ "unsupported_number_rate": 0.061,
+ "latency_ms_avg": {
+  "recall": 38.0,
+  "rerank": 335.0,
+  "generate": 520.0
+ },
+ "n": 114,
+ "backend": "vllm",
+ "rerank": true,
+ "threshold": 0.15,
+ "total_seconds": 132.4,
+ "by_type": {
+  "事实": 0.8889,
+  "事实-年份混淆": 0.7778,
+  "同义改写": 1.0,
+  "表格": 0.913,
+  "对比": 0.7273,
+  "汇总": 1.0,
+  "政策": 0.8889,
+  "无答案": 0.8333
+ },
+ "badcase_types": {
+  "生成错误(证据在但答错)": 9,
+  "生成幻觉(数字无出处)": 5,
+  "幻觉(无答案题未拒答)": 2
+ }
+}

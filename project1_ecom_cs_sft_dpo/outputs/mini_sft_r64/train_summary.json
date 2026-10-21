@@ -1,0 +1,16 @@
+{
+  "exp_name": "mini_sft_r64",
+  "base_model": "./models/Qwen3-0.6B",
+  "qlora": false,
+  "lora_r": 64,
+  "lora_alpha": 128,
+  "target_modules": "q_proj,v_proj",
+  "lr": 0.0002,
+  "epochs": 3,
+  "train_samples": 5339,
+  "trainable_params": 9175040,
+  "train_loss": 0.4174,
+  "eval_loss": 0.1085,
+  "peak_mem_gb": 0.0,
+  "train_minutes": 5.7
+}

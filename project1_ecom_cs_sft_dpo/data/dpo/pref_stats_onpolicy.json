@@ -1,0 +1,13 @@
+{
+  "mode": "candidates",
+  "pairs": 343,
+  "train": 326,
+  "val": 17,
+  "noise_ratio": 0.0,
+  "noisy_pairs": 0,
+  "annotation_queue": 257,
+  "rejected_type": {
+    "auto_score": 301,
+    "gold_vs_model": 42
+  }
+}

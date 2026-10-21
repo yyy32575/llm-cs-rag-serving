@@ -1,0 +1,607 @@
+{
+  "embedding": "/tmp/models/bge-small-zh-v1.5",
+  "chunk_size": 512,
+  "overlap": 50,
+  "results": {
+    "纯向量(FAISS)": {
+      "recall@1": 0.4755,
+      "recall@3": 0.6275,
+      "recall@5": 0.7647,
+      "recall@10": 0.9167,
+      "mrr": 0.5985,
+      "n": 102,
+      "by_type": {
+        "事实": {
+          "recall@1": 0.3611,
+          "recall@3": 0.5278,
+          "recall@5": 0.6944,
+          "recall@10": 0.8889,
+          "mrr": 0.5143
+        },
+        "事实-年份混淆": {
+          "recall@1": 0.0,
+          "recall@3": 0.1111,
+          "recall@5": 0.3333,
+          "recall@10": 1.0,
+          "mrr": 0.1946
+        },
+        "同义改写": {
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr": 1.0
+        },
+        "表格": {
+          "recall@1": 0.7826,
+          "recall@3": 0.7826,
+          "recall@5": 0.8261,
+          "recall@10": 0.8696,
+          "mrr": 0.8099
+        },
+        "对比": {
+          "recall@1": 0.2273,
+          "recall@3": 0.5455,
+          "recall@5": 0.8182,
+          "recall@10": 0.9545,
+          "mrr": 0.3775
+        },
+        "汇总": {
+          "recall@1": 0.0,
+          "recall@3": 0.6,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr": 0.4
+        },
+        "政策": {
+          "recall@1": 0.6667,
+          "recall@3": 0.8889,
+          "recall@5": 0.8889,
+          "recall@10": 0.8889,
+          "mrr": 0.7778
+        }
+      },
+      "latency_ms_per_query": 6.88
+    },
+    "纯BM25": {
+      "recall@1": 0.6814,
+      "recall@3": 0.9363,
+      "recall@5": 0.9461,
+      "recall@10": 0.9951,
+      "mrr": 0.8141,
+      "n": 102,
+      "by_type": {
+        "事实": {
+          "recall@1": 0.5833,
+          "recall@3": 0.9722,
+          "recall@5": 0.9722,
+          "recall@10": 1.0,
+          "mrr": 0.7817
+        },
+        "事实-年份混淆": {
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr": 1.0
+        },
+        "同义改写": {
+          "recall@1": 0.7778,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr": 0.8889
+        },
+        "表格": {
+          "recall@1": 0.8696,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr": 0.9348
+        },
+        "对比": {
+          "recall@1": 0.3182,
+          "recall@3": 0.6818,
+          "recall@5": 0.7727,
+          "recall@10": 0.9545,
+          "mrr": 0.5137
+        },
+        "汇总": {
+          "recall@1": 0.2,
+          "recall@3": 0.6,
+          "recall@5": 0.6,
+          "recall@10": 1.0,
+          "mrr": 0.4486
+        },
+        "政策": {
+          "recall@1": 0.8889,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr": 0.9444
+        }
+      },
+      "latency_ms_per_query": 0.45
+    },
+    "混合RRF": {
+      "recall@1": 0.6127,
+      "recall@3": 0.8971,
+      "recall@5": 0.9657,
+      "recall@10": 0.9853,
+      "mrr": 0.7634,
+      "n": 102,
+      "by_type": {
+        "事实": {
+          "recall@1": 0.5,
+          "recall@3": 0.9722,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr": 0.7338
+        },
+        "事实-年份混淆": {
+          "recall@1": 0.6667,
+          "recall@3": 0.8889,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr": 0.8056
+        },
+        "同义改写": {
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr": 1.0
+        },
+        "表格": {
+          "recall@1": 0.8696,
+          "recall@3": 0.8696,
+          "recall@5": 0.9565,
+          "recall@10": 1.0,
+          "mrr": 0.8986
+        },
+        "对比": {
+          "recall@1": 0.3182,
+          "recall@3": 0.6818,
+          "recall@5": 0.8636,
+          "recall@10": 0.8636,
+          "mrr": 0.4672
+        },
+        "汇总": {
+          "recall@1": 0.0,
+          "recall@3": 0.8,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr": 0.45
+        },
+        "政策": {
+          "recall@1": 0.6667,
+          "recall@3": 0.8889,
+          "recall@5": 0.8889,
+          "recall@10": 1.0,
+          "mrr": 0.7937
+        }
+      },
+      "latency_ms_per_query": 4.77
+    },
+    "混合加权α=0.3": {
+      "recall@1": 0.6961,
+      "recall@3": 0.9412,
+      "recall@5": 0.9755,
+      "recall@10": 0.9902,
+      "mrr": 0.8232,
+      "n": 102,
+      "by_type": {
+        "事实": {
+          "recall@1": 0.5833,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr": 0.7917
+        },
+        "事实-年份混淆": {
+          "recall@1": 0.8889,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr": 0.9444
+        },
+        "同义改写": {
+          "recall@1": 0.8889,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr": 0.9444
+        },
+        "表格": {
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr": 1.0
+        },
+        "对比": {
+          "recall@1": 0.3636,
+          "recall@3": 0.6364,
+          "recall@5": 0.8636,
+          "recall@10": 0.9091,
+          "mrr": 0.5085
+        },
+        "汇总": {
+          "recall@1": 0.0,
+          "recall@3": 0.6,
+          "recall@5": 0.8,
+          "recall@10": 1.0,
+          "mrr": 0.375
+        },
+        "政策": {
+          "recall@1": 0.7778,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr": 0.8889
+        }
+      },
+      "latency_ms_per_query": 4.75
+    },
+    "混合加权α=0.5": {
+      "recall@1": 0.6863,
+      "recall@3": 0.9608,
+      "recall@5": 0.9755,
+      "recall@10": 0.9902,
+      "mrr": 0.8256,
+      "n": 102,
+      "by_type": {
+        "事实": {
+          "recall@1": 0.5833,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr": 0.7917
+        },
+        "事实-年份混淆": {
+          "recall@1": 0.8889,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr": 0.9444
+        },
+        "同义改写": {
+          "recall@1": 0.8889,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr": 0.9444
+        },
+        "表格": {
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr": 1.0
+        },
+        "对比": {
+          "recall@1": 0.2727,
+          "recall@3": 0.7273,
+          "recall@5": 0.8636,
+          "recall@10": 0.9091,
+          "mrr": 0.5042
+        },
+        "汇总": {
+          "recall@1": 0.0,
+          "recall@3": 0.8,
+          "recall@5": 0.8,
+          "recall@10": 1.0,
+          "mrr": 0.4333
+        },
+        "政策": {
+          "recall@1": 0.7778,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr": 0.8889
+        }
+      },
+      "latency_ms_per_query": 4.82
+    },
+    "混合加权α=0.7": {
+      "recall@1": 0.6324,
+      "recall@3": 0.8775,
+      "recall@5": 0.9608,
+      "recall@10": 0.9902,
+      "mrr": 0.7634,
+      "n": 102,
+      "by_type": {
+        "事实": {
+          "recall@1": 0.5,
+          "recall@3": 0.8611,
+          "recall@5": 0.9444,
+          "recall@10": 1.0,
+          "mrr": 0.7047
+        },
+        "事实-年份混淆": {
+          "recall@1": 0.6667,
+          "recall@3": 0.8889,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr": 0.787
+        },
+        "同义改写": {
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr": 1.0
+        },
+        "表格": {
+          "recall@1": 0.9565,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr": 0.971
+        },
+        "对比": {
+          "recall@1": 0.3182,
+          "recall@3": 0.5909,
+          "recall@5": 0.9091,
+          "recall@10": 1.0,
+          "mrr": 0.4307
+        },
+        "汇总": {
+          "recall@1": 0.0,
+          "recall@3": 0.8,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr": 0.45
+        },
+        "政策": {
+          "recall@1": 0.6667,
+          "recall@3": 0.8889,
+          "recall@5": 0.8889,
+          "recall@10": 0.8889,
+          "mrr": 0.7879
+        }
+      },
+      "latency_ms_per_query": 6.29
+    },
+    "纯向量+Query改写": {
+      "recall@1": 0.4951,
+      "recall@3": 0.6275,
+      "recall@5": 0.7647,
+      "recall@10": 0.9167,
+      "mrr": 0.6083,
+      "n": 102,
+      "by_type": {
+        "事实": {
+          "recall@1": 0.4167,
+          "recall@3": 0.5278,
+          "recall@5": 0.6944,
+          "recall@10": 0.8889,
+          "mrr": 0.5421
+        },
+        "事实-年份混淆": {
+          "recall@1": 0.0,
+          "recall@3": 0.1111,
+          "recall@5": 0.3333,
+          "recall@10": 1.0,
+          "mrr": 0.1946
+        },
+        "同义改写": {
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr": 1.0
+        },
+        "表格": {
+          "recall@1": 0.7826,
+          "recall@3": 0.7826,
+          "recall@5": 0.8261,
+          "recall@10": 0.8696,
+          "mrr": 0.8099
+        },
+        "对比": {
+          "recall@1": 0.2273,
+          "recall@3": 0.5455,
+          "recall@5": 0.8182,
+          "recall@10": 0.9545,
+          "mrr": 0.3775
+        },
+        "汇总": {
+          "recall@1": 0.0,
+          "recall@3": 0.6,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr": 0.4
+        },
+        "政策": {
+          "recall@1": 0.6667,
+          "recall@3": 0.8889,
+          "recall@5": 0.8889,
+          "recall@10": 0.8889,
+          "mrr": 0.7778
+        }
+      },
+      "latency_ms_per_query": 4.65
+    },
+    "纯BM25+Query改写": {
+      "recall@1": 0.652,
+      "recall@3": 0.9363,
+      "recall@5": 0.9461,
+      "recall@10": 0.9951,
+      "mrr": 0.7977,
+      "n": 102,
+      "by_type": {
+        "事实": {
+          "recall@1": 0.4722,
+          "recall@3": 0.9722,
+          "recall@5": 0.9722,
+          "recall@10": 1.0,
+          "mrr": 0.7216
+        },
+        "事实-年份混淆": {
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr": 1.0
+        },
+        "同义改写": {
+          "recall@1": 0.8889,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr": 0.9444
+        },
+        "表格": {
+          "recall@1": 0.8696,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr": 0.9348
+        },
+        "对比": {
+          "recall@1": 0.3182,
+          "recall@3": 0.6818,
+          "recall@5": 0.7727,
+          "recall@10": 0.9545,
+          "mrr": 0.5137
+        },
+        "汇总": {
+          "recall@1": 0.2,
+          "recall@3": 0.6,
+          "recall@5": 0.6,
+          "recall@10": 1.0,
+          "mrr": 0.4486
+        },
+        "政策": {
+          "recall@1": 0.8889,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr": 0.9444
+        }
+      },
+      "latency_ms_per_query": 0.54
+    },
+    "混合RRF+Query改写": {
+      "recall@1": 0.6029,
+      "recall@3": 0.8971,
+      "recall@5": 0.9657,
+      "recall@10": 0.9853,
+      "mrr": 0.7585,
+      "n": 102,
+      "by_type": {
+        "事实": {
+          "recall@1": 0.5,
+          "recall@3": 0.9722,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr": 0.7338
+        },
+        "事实-年份混淆": {
+          "recall@1": 0.6667,
+          "recall@3": 0.8889,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr": 0.8056
+        },
+        "同义改写": {
+          "recall@1": 0.8889,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr": 0.9444
+        },
+        "表格": {
+          "recall@1": 0.8696,
+          "recall@3": 0.8696,
+          "recall@5": 0.9565,
+          "recall@10": 1.0,
+          "mrr": 0.8986
+        },
+        "对比": {
+          "recall@1": 0.3182,
+          "recall@3": 0.6818,
+          "recall@5": 0.8636,
+          "recall@10": 0.8636,
+          "mrr": 0.4672
+        },
+        "汇总": {
+          "recall@1": 0.0,
+          "recall@3": 0.8,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr": 0.45
+        },
+        "政策": {
+          "recall@1": 0.6667,
+          "recall@3": 0.8889,
+          "recall@5": 0.8889,
+          "recall@10": 1.0,
+          "mrr": 0.7937
+        }
+      },
+      "latency_ms_per_query": 4.82
+    },
+    "混合RRF+改写-去标题前缀": {
+      "recall@1": 0.2941,
+      "recall@3": 0.5245,
+      "recall@5": 0.6029,
+      "recall@10": 0.7598,
+      "mrr": 0.4419,
+      "n": 102,
+      "by_type": {
+        "事实": {
+          "recall@1": 0.3056,
+          "recall@3": 0.5556,
+          "recall@5": 0.6111,
+          "recall@10": 0.7778,
+          "mrr": 0.4523
+        },
+        "事实-年份混淆": {
+          "recall@1": 0.6667,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr": 0.8333
+        },
+        "同义改写": {
+          "recall@1": 0.3333,
+          "recall@3": 0.6667,
+          "recall@5": 0.8889,
+          "recall@10": 1.0,
+          "mrr": 0.513
+        },
+        "表格": {
+          "recall@1": 0.1739,
+          "recall@3": 0.2609,
+          "recall@5": 0.3478,
+          "recall@10": 0.6087,
+          "mrr": 0.2845
+        },
+        "对比": {
+          "recall@1": 0.0,
+          "recall@3": 0.0455,
+          "recall@5": 0.1364,
+          "recall@10": 0.3182,
+          "mrr": 0.0697
+        },
+        "汇总": {
+          "recall@1": 0.0,
+          "recall@3": 0.8,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr": 0.44
+        },
+        "政策": {
+          "recall@1": 0.6667,
+          "recall@3": 0.8889,
+          "recall@5": 0.8889,
+          "recall@10": 1.0,
+          "mrr": 0.7963
+        }
+      },
+      "latency_ms_per_query": 4.7
+    }
+  }
+}

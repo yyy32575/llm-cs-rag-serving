@@ -1,0 +1,31 @@
+# ---- Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# ---- OS / 编辑器
+.DS_Store
+.idea/
+.vscode/
+
+# ---- 模型权重与训练产物（跑 scripts/ 可重新生成，不必入库）
+**/models/
+**/outputs/*/checkpoint-*/
+**/outputs/*/*.safetensors
+**/outputs/*/*.pt
+**/outputs/*/*.bin
+**/outputs/*/tokenizer.json
+**/outputs/*/tokenizer_config.json
+**/outputs/*/vocab.json
+**/outputs/*/merges.txt
+**/outputs/*/special_tokens_map.json
+**/outputs/*/added_tokens.json
+**/outputs/*/chat_template.jinja
+
+# ---- 检索缓存 / 索引 / 运行日志（可重建）
+**/data/cache/
+**/data/index/
+**/logs/
+*.log

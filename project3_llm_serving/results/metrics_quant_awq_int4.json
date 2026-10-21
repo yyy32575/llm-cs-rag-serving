@@ -1,0 +1,10 @@
+{
+ "exp_name": "quant_awq_int4",
+ "n": 400,
+ "quant": "awq_int4",
+ "overall": {
+  "accuracy": 0.802,
+  "auto_resolve_rate": 0.777,
+  "repetition_rate": 0.002
+ }
+}

@@ -1,0 +1,10 @@
+{
+ "exp_name": "quant_gptq_int4",
+ "n": 400,
+ "quant": "gptq_int4",
+ "overall": {
+  "accuracy": 0.798,
+  "auto_resolve_rate": 0.773,
+  "repetition_rate": 0.002
+ }
+}

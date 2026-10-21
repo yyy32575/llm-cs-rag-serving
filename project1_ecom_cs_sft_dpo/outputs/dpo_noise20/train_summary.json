@@ -1,0 +1,13 @@
+{
+ "exp_name": "dpo_noise20",
+ "beta": 0.1,
+ "loss_type": "sigmoid",
+ "sft_adapter": "outputs/sft_qlora_r16",
+ "train_file": "data/dpo/train.jsonl",
+ "pairs": 2000,
+ "train_loss": 0.52,
+ "eval_rewards_accuracy": 0.61,
+ "eval_rewards_margin": 0.9,
+ "peak_mem_gb": 19.6,
+ "train_minutes": 77
+}

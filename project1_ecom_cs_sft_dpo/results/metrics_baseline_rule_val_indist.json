@@ -1,0 +1,111 @@
+{
+  "overall": {
+    "n": 280,
+    "accuracy": 0.5214,
+    "auto_resolve_rate": 0.4821,
+    "satisfaction": 3.249,
+    "repetition_rate": 0.0,
+    "forbidden_rate": 0.025,
+    "transfer_rate": 0.2036,
+    "avg_len": 81.2
+  },
+  "by_domain": {
+    "优惠活动": {
+      "n": 37,
+      "accuracy": 0.9189,
+      "auto_resolve_rate": 0.9189,
+      "satisfaction": 3.581,
+      "repetition_rate": 0.0,
+      "forbidden_rate": 0.0,
+      "transfer_rate": 0.027,
+      "avg_len": 82.2
+    },
+    "售后": {
+      "n": 19,
+      "accuracy": 0.6842,
+      "auto_resolve_rate": 0.6842,
+      "satisfaction": 3.211,
+      "repetition_rate": 0.0,
+      "forbidden_rate": 0.0,
+      "transfer_rate": 0.3158,
+      "avg_len": 62.9
+    },
+    "商品参数": {
+      "n": 18,
+      "accuracy": 0.0,
+      "auto_resolve_rate": 0.0,
+      "satisfaction": 1.583,
+      "repetition_rate": 0.0,
+      "forbidden_rate": 0.0,
+      "transfer_rate": 0.9444,
+      "avg_len": 32.5
+    },
+    "投诉": {
+      "n": 34,
+      "accuracy": 0.7941,
+      "auto_resolve_rate": 0.4706,
+      "satisfaction": 3.735,
+      "repetition_rate": 0.0,
+      "forbidden_rate": 0.0,
+      "transfer_rate": 0.5294,
+      "avg_len": 79.8
+    },
+    "物流": {
+      "n": 68,
+      "accuracy": 0.3824,
+      "auto_resolve_rate": 0.3824,
+      "satisfaction": 3.103,
+      "repetition_rate": 0.0,
+      "forbidden_rate": 0.0,
+      "transfer_rate": 0.1176,
+      "avg_len": 68.1
+    },
+    "退换货": {
+      "n": 104,
+      "accuracy": 0.4423,
+      "auto_resolve_rate": 0.4423,
+      "satisfaction": 3.364,
+      "repetition_rate": 0.0,
+      "forbidden_rate": 0.0673,
+      "transfer_rate": 0.0673,
+      "avg_len": 101.7
+    }
+  },
+  "by_subset": {
+    "beyond_window": {
+      "n": 32,
+      "accuracy": 0.0,
+      "auto_resolve_rate": 0.0,
+      "satisfaction": 3.151,
+      "repetition_rate": 0.0,
+      "forbidden_rate": 0.125,
+      "transfer_rate": 0.0312,
+      "avg_len": 101.7
+    },
+    "escalate": {
+      "n": 11,
+      "accuracy": 1.0,
+      "auto_resolve_rate": 0.0,
+      "satisfaction": 4.5,
+      "repetition_rate": 0.0,
+      "forbidden_rate": 0.0,
+      "transfer_rate": 1.0,
+      "avg_len": 87.0
+    },
+    "normal": {
+      "n": 237,
+      "accuracy": 0.5696,
+      "auto_resolve_rate": 0.5696,
+      "satisfaction": 3.205,
+      "repetition_rate": 0.0,
+      "forbidden_rate": 0.0127,
+      "transfer_rate": 0.1899,
+      "avg_len": 78.2
+    }
+  },
+  "exp_name": "baseline_rule_val_indist",
+  "backend": "rule",
+  "model": "Qwen/Qwen3-8B",
+  "adapter": null,
+  "generation_seconds": 0.0
+}

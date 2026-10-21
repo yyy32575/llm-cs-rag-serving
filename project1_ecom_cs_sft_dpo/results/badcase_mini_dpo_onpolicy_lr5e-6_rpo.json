@@ -1,0 +1,27 @@
+{
+  "exp": "mini_dpo_onpolicy_lr5e-6_rpo",
+  "total": 400,
+  "failed": 183,
+  "by_type": {
+    "under_transfer": 11,
+    "repetition": 0,
+    "outdated_policy": 3,
+    "fact_error": 0,
+    "context_ignored": 13,
+    "multi_turn_drift": 25,
+    "over_transfer": 2,
+    "keypoint_missing": 129
+  },
+  "compare_with": "preds_mini_sft_r16.jsonl",
+  "fixed": 9,
+  "broken": 12,
+  "win": 35,
+  "tie": 329,
+  "lose": 36,
+  "fixed_types": {
+    "multi_turn_drift": 1,
+    "keypoint_missing": 6,
+    "context_ignored": 1,
+    "under_transfer": 1
+  }
+}

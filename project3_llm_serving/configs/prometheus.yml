@@ -1,0 +1,7 @@
+global:
+  scrape_interval: 5s
+scrape_configs:
+  - job_name: gateway
+    static_configs: [{targets: ["localhost:9000"]}]
+  - job_name: vllm                      # vLLM 自带 /metrics：num_requests_running/waiting、gpu_cache_usage_perc、TTFT/TPOT 直方图
+    static_configs: [{targets: ["localhost:8000"]}]

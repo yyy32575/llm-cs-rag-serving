@@ -1,0 +1,43 @@
+{
+  "naive": {
+    "pdfs": 110,
+    "blocks": 315,
+    "table_blocks": 0,
+    "seconds": 4.54,
+    "sec_per_pdf": 0.041,
+    "evidence_survival": {
+      "overall": 1.0,
+      "事实": 1.0,
+      "事实-年份混淆": 1.0,
+      "同义改写": 1.0,
+      "表格": 1.0,
+      "对比": 1.0,
+      "汇总": 1.0,
+      "政策": 1.0
+    },
+    "stats": {}
+  },
+  "layout": {
+    "pdfs": 110,
+    "blocks": 1867,
+    "table_blocks": 105,
+    "seconds": 4.52,
+    "sec_per_pdf": 0.041,
+    "evidence_survival": {
+      "overall": 1.0,
+      "事实": 1.0,
+      "事实-年份混淆": 1.0,
+      "同义改写": 1.0,
+      "表格": 1.0,
+      "对比": 1.0,
+      "汇总": 1.0,
+      "政策": 1.0
+    },
+    "stats": {
+      "header_footer_chars_removed": 20221,
+      "two_column_pages": 125,
+      "tables": 105,
+      "repeated_lines_removed": 46
+    }
+  }
+}

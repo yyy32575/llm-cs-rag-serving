@@ -1,0 +1,13 @@
+{
+  "ecs_sft": {
+    "file_name": "sft/train.jsonl",
+    "formatting": "alpaca",
+    "columns": {"prompt": "instruction", "query": "input", "response": "output", "history": "history"}
+  },
+  "ecs_dpo": {
+    "file_name": "dpo/train.jsonl",
+    "formatting": "alpaca",
+    "ranking": true,
+    "columns": {"prompt": "instruction", "query": "input", "chosen": "chosen", "rejected": "rejected", "history": "history"}
+  }
+}

@@ -1,0 +1,10 @@
+{
+ "exp_name": "quant_int8_w8a8",
+ "n": 400,
+ "quant": "int8_w8a8",
+ "overall": {
+  "accuracy": 0.81,
+  "auto_resolve_rate": 0.785,
+  "repetition_rate": 0.002
+ }
+}

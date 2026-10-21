@@ -1,0 +1,10 @@
+{
+ "exp_name": "quant_fp16",
+ "n": 400,
+ "quant": "fp16",
+ "overall": {
+  "accuracy": 0.815,
+  "auto_resolve_rate": 0.79,
+  "repetition_rate": 0.002
+ }
+}

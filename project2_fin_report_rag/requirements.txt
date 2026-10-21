@@ -1,0 +1,16 @@
+# Python 3.10+；GPU 可选（embedding/rerank 用 GPU 快 10x 以上）
+pdfplumber>=0.11.0
+pymupdf>=1.24.0          # 可选：另一种 PDF 文本源
+reportlab>=4.0           # 生成 demo 语料
+jieba>=0.42.1
+rank_bm25>=0.2.2
+faiss-cpu>=1.8.0         # GPU 环境可换 faiss-gpu
+sentence-transformers>=3.0.0
+torch>=2.1.0
+numpy>=1.24
+pyyaml>=6.0
+openai>=1.30.0
+fastapi>=0.110
+uvicorn>=0.29
+streamlit>=1.35
+modelscope>=1.15         # 国内下载 BGE / Qwen 模型

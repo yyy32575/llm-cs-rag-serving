@@ -1,0 +1,16 @@
+{
+ "exp_name": "sft_qlora_r64",
+ "base_model": "models/Qwen3-8B",
+ "qlora": true,
+ "lora_r": 64,
+ "lora_alpha": 128,
+ "target_modules": "q_proj,v_proj",
+ "lr": 0.0002,
+ "epochs": 3,
+ "train_samples": 5339,
+ "trainable_params": 30700000,
+ "train_loss": 0.39,
+ "eval_loss": 0.29,
+ "peak_mem_gb": 19.6,
+ "train_minutes": 138
+}

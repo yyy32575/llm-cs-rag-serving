@@ -1,0 +1,35 @@
+# 网关配置（环境变量同名大写可覆盖，如 CS_MODEL_URL）
+cs_model_url: http://localhost:8000/v1          # vLLM：客服模型（项目一 SFT+DPO 合并后 AWQ-INT4）
+cs_model_name: cs-model
+rag_model_url: http://localhost:8000/v1         # 研报生成模型（可同一 vLLM 实例多 LoRA / 同模型）
+rag_model_name: cs-model
+fallback_model_url: http://localhost:8001/v1    # 降级模型（更小的量化模型，如 Qwen3-4B-AWQ）
+fallback_model_name: fallback-model
+rag_service_url: http://localhost:8100          # 项目二 RAG 检索服务
+redis_url: redis://localhost:6379/0             # 不可用时自动退化为进程内 LRU 缓存
+
+request_timeout_s: 8.0          # 单次 LLM 调用超时：超时返回兜底话术
+max_tokens: 256
+cache_ttl_s: 3600
+hot_cache_ttl_s: 86400          # 预热的热门问题（双11能叠加优惠券吗）缓存 1 天
+
+rate_limit:
+  global_qps: 40                # 令牌桶：超过阈值返回 429
+  global_burst: 80
+  per_user_qps: 2
+  per_user_burst: 5
+
+circuit_breaker:
+  window_s: 30
+  min_requests: 20
+  error_rate_threshold: 0.3     # 窗口内错误率 > 30% 打开熔断 -> 走降级模型
+  p95_slo_ms: 2000              # 窗口 P95 > SLO 也触发降级（缩短 max_tokens + 切小模型）
+  open_seconds: 20              # 熔断打开持续时间，之后半开探测
+
+hot_questions:                  # 启动时预热到缓存（来自日志 Top-K 高频 query）
+  - q: 双11能叠加优惠券吗
+    a: 亲，双11期间平台券和店铺券可以叠加使用，但同类型的优惠券（比如两张店铺满减券）不能叠加。下单时系统会自动为您选择最优的优惠组合，您也可以在结算页手动切换。
+  - q: 什么时候发货
+    a: 亲，一般情况下商品会在付款后48小时内发货，大促期间可能会有延迟，发货后您可以在【我的订单】中查看物流单号和实时进度。
+  - q: 退款多久到账
+    a: 您好，退款在商家确认收货并审核通过后，会在3个工作日内原路退回您的支付账户，您可以在【我的订单】-【退款详情】中查看实时进度。

@@ -1,0 +1,17 @@
+{
+  "mode": "synthetic",
+  "pairs": 2000,
+  "train": 1900,
+  "val": 100,
+  "noise_ratio": 0.0,
+  "noisy_pairs": 0,
+  "annotation_queue": 0,
+  "rejected_type": {
+    "transfer_only": 760,
+    "over_promise": 52,
+    "off_topic": 304,
+    "repetitive": 231,
+    "vague": 431,
+    "outdated": 222
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "raw_total": 12000,
+  "test_total": 400,
+  "raw_noise": {
+    "clean": 10003,
+    "short_reply": 996,
+    "outdated_policy": 1001
+  },
+  "raw_domain": {
+    "退换货": 3872,
+    "售后": 920,
+    "物流": 3206,
+    "商品参数": 1167,
+    "优惠活动": 1439,
+    "投诉": 1396
+  },
+  "test_subset": {
+    "multi_turn_follow": 23,
+    "normal": 307,
+    "multi_turn_change": 25,
+    "escalate": 22,
+    "beyond_window": 23
+  },
+  "test_domain": {
+    "物流": 116,
+    "商品参数": 41,
+    "退换货": 118,
+    "优惠活动": 44,
+    "投诉": 54,
+    "售后": 27
+  }
+}

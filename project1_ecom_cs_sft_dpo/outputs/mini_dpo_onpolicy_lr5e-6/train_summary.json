@@ -1,0 +1,14 @@
+{
+  "exp_name": "mini_dpo_onpolicy_lr5e-6",
+  "beta": 0.1,
+  "loss_type": "sigmoid",
+  "lr": 5e-06,
+  "rpo_alpha": null,
+  "train_file": "train_onpolicy.jsonl",
+  "pairs": 326,
+  "train_loss": 0.6798,
+  "eval_rewards_accuracy": 0.8888888955116272,
+  "eval_rewards_margin": 0.0599939301609993,
+  "peak_mem_gb": 0,
+  "train_minutes": 3.5
+}

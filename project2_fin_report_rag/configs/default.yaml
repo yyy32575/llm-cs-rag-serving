@@ -1,0 +1,20 @@
+# 金融研报 RAG 默认配置（GPU 推荐值；CPU 演示可把模型换成 bge-small-zh-v1.5 / bge-reranker-base）
+embedding_model: BAAI/bge-large-zh-v1.5
+reranker_model: BAAI/bge-reranker-v2-m3
+llm_model: Qwen/Qwen3-8B            # 或项目三部署的客服/研报模型服务名
+llm_base_url: http://localhost:8000/v1
+
+chunk_size: 512
+overlap: 50
+table_protect: true
+
+pipeline:
+  mode: hybrid          # dense | bm25 | hybrid
+  fusion: rrf           # rrf | weighted
+  recall_k: 20          # 混合召回 Top20
+  final_k: 5            # 重排后取 Top5 进 prompt
+  rerank: true
+  refuse_threshold: 0.15  # rerank 最高分低于阈值直接拒答
+  use_rewrite: true
+  title_prefix: true
+  index: flat           # flat | ivf | hnsw

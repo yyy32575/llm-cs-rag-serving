@@ -1,0 +1,131 @@
+{
+  "overall": {
+    "n": 400,
+    "accuracy": 0.03,
+    "auto_resolve_rate": 0.02,
+    "satisfaction": 3.133,
+    "repetition_rate": 0.0,
+    "forbidden_rate": 0.0,
+    "transfer_rate": 0.02,
+    "avg_len": 62.4
+  },
+  "by_domain": {
+    "优惠活动": {
+      "n": 44,
+      "accuracy": 0.0,
+      "auto_resolve_rate": 0.0,
+      "satisfaction": 2.994,
+      "repetition_rate": 0.0,
+      "forbidden_rate": 0.0,
+      "transfer_rate": 0.0,
+      "avg_len": 61.1
+    },
+    "售后": {
+      "n": 27,
+      "accuracy": 0.0,
+      "auto_resolve_rate": 0.0,
+      "satisfaction": 3.074,
+      "repetition_rate": 0.0,
+      "forbidden_rate": 0.0,
+      "transfer_rate": 0.0,
+      "avg_len": 57.5
+    },
+    "商品参数": {
+      "n": 41,
+      "accuracy": 0.0244,
+      "auto_resolve_rate": 0.0244,
+      "satisfaction": 2.866,
+      "repetition_rate": 0.0,
+      "forbidden_rate": 0.0,
+      "transfer_rate": 0.0,
+      "avg_len": 64.6
+    },
+    "投诉": {
+      "n": 54,
+      "accuracy": 0.0741,
+      "auto_resolve_rate": 0.0,
+      "satisfaction": 3.139,
+      "repetition_rate": 0.0,
+      "forbidden_rate": 0.0,
+      "transfer_rate": 0.1481,
+      "avg_len": 61.5
+    },
+    "物流": {
+      "n": 116,
+      "accuracy": 0.0431,
+      "auto_resolve_rate": 0.0431,
+      "satisfaction": 3.158,
+      "repetition_rate": 0.0,
+      "forbidden_rate": 0.0,
+      "transfer_rate": 0.0,
+      "avg_len": 61.5
+    },
+    "退换货": {
+      "n": 118,
+      "accuracy": 0.0169,
+      "auto_resolve_rate": 0.0169,
+      "satisfaction": 3.263,
+      "repetition_rate": 0.0,
+      "forbidden_rate": 0.0,
+      "transfer_rate": 0.0,
+      "avg_len": 64.5
+    }
+  },
+  "by_subset": {
+    "beyond_window": {
+      "n": 23,
+      "accuracy": 0.0,
+      "auto_resolve_rate": 0.0,
+      "satisfaction": 3.101,
+      "repetition_rate": 0.0,
+      "forbidden_rate": 0.0,
+      "transfer_rate": 0.0,
+      "avg_len": 69.1
+    },
+    "escalate": {
+      "n": 22,
+      "accuracy": 0.1818,
+      "auto_resolve_rate": 0.0,
+      "satisfaction": 3.136,
+      "repetition_rate": 0.0,
+      "forbidden_rate": 0.0,
+      "transfer_rate": 0.1818,
+      "avg_len": 52.2
+    },
+    "multi_turn_change": {
+      "n": 25,
+      "accuracy": 0.08,
+      "auto_resolve_rate": 0.08,
+      "satisfaction": 3.6,
+      "repetition_rate": 0.0,
+      "forbidden_rate": 0.0,
+      "transfer_rate": 0.0,
+      "avg_len": 67.9
+    },
+    "multi_turn_follow": {
+      "n": 23,
+      "accuracy": 0.1739,
+      "auto_resolve_rate": 0.1739,
+      "satisfaction": 3.457,
+      "repetition_rate": 0.0,
+      "forbidden_rate": 0.0,
+      "transfer_rate": 0.0,
+      "avg_len": 65.5
+    },
+    "normal": {
+      "n": 307,
+      "accuracy": 0.0065,
+      "auto_resolve_rate": 0.0065,
+      "satisfaction": 3.073,
+      "repetition_rate": 0.0,
+      "forbidden_rate": 0.0,
+      "transfer_rate": 0.013,
+      "avg_len": 62.0
+    }
+  },
+  "exp_name": "mini_base_zeroshot",
+  "backend": "hf",
+  "model": "./models/Qwen3-0.6B",
+  "adapter": null,
+  "generation_seconds": 118.6
+}

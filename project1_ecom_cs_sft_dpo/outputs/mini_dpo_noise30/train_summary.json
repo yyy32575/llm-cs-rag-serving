@@ -1,0 +1,12 @@
+{
+  "exp_name": "mini_dpo_noise30",
+  "beta": 0.1,
+  "loss_type": "sigmoid",
+  "train_file": "train_noise30.jsonl",
+  "pairs": 600,
+  "train_loss": 0.6568,
+  "eval_rewards_accuracy": 0.7799999713897705,
+  "eval_rewards_margin": 0.6124672889709473,
+  "peak_mem_gb": 0,
+  "train_minutes": 7.7
+}

@@ -1,0 +1,14 @@
+# Python 3.10/3.11, CUDA 12.1+, 单卡 RTX 3090/4090 24GB
+torch>=2.3.0
+transformers>=4.51.0      # Qwen3 需要 >= 4.51
+trl>=0.17.0
+peft>=0.14.0
+datasets>=2.19.0
+accelerate>=0.34.0
+bitsandbytes>=0.43.0
+deepspeed>=0.14.0          # 可选：多卡 ZeRO-2
+vllm>=0.8.5                # 可选：快速采样/评测（Linux）
+openai>=1.30.0
+matplotlib>=3.8
+pandas>=2.0
+numpy>=1.24

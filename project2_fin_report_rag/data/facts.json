@@ -1,0 +1,2556 @@
+{
+  "facts": {
+    "宁川动力": {
+      "industry": "动力电池",
+      "sector": "新能源",
+      "kpi": "动力电池装车量",
+      "kpi_unit": "GWh",
+      "kpi_syn": "动力电池装机量",
+      "extra": "海外收入占比",
+      "extra_value": 22.2,
+      "years": [
+        "2023A",
+        "2024A",
+        "2025E",
+        "2026E",
+        "2027E"
+      ],
+      "revenue": [
+        3200,
+        3988.48,
+        4267.16,
+        4522.53,
+        4773.86
+      ],
+      "net_profit": [
+        649.51,
+        719.89,
+        769.38,
+        905.66,
+        1006.1
+      ],
+      "eps": [
+        20.42,
+        22.64,
+        24.19,
+        28.48,
+        31.64
+      ],
+      "pe": [
+        39.6,
+        35.7,
+        33.4,
+        28.4,
+        25.6
+      ],
+      "gross_margin_year": 27.6,
+      "target_price": 959.0,
+      "rating": "买入",
+      "quarters": {
+        "2023Q1": {
+          "revenue": 809.03,
+          "net_profit": 157.69,
+          "gross_margin": 26.3,
+          "kpi": 199.3
+        },
+        "2023Q2": {
+          "revenue": 664.59,
+          "net_profit": 138.67,
+          "gross_margin": 27.8,
+          "kpi": 21.5
+        },
+        "2023Q3": {
+          "revenue": 691.48,
+          "net_profit": 131.37,
+          "gross_margin": 26.6,
+          "kpi": 273.5,
+          "revenue_yoy": 3.9,
+          "np_yoy": 1.5,
+          "ytd_revenue": 2165.1,
+          "share": 27.3
+        },
+        "2024Q1": {
+          "revenue": 1090.65,
+          "net_profit": 229.95,
+          "gross_margin": 26.8,
+          "kpi": 261.1
+        },
+        "2024Q2": {
+          "revenue": 981.16,
+          "net_profit": 186.16,
+          "gross_margin": 28.4,
+          "kpi": 317.6
+        },
+        "2024Q3": {
+          "revenue": 1074.0,
+          "net_profit": 216.06,
+          "gross_margin": 28.0,
+          "kpi": 251.1,
+          "revenue_yoy": -1.6,
+          "np_yoy": 6.1,
+          "ytd_revenue": 3145.81,
+          "share": 30.5
+        },
+        "2025Q1": {
+          "revenue": 1149.33,
+          "net_profit": 243.48,
+          "gross_margin": 26.9,
+          "kpi": 396.6
+        },
+        "2025Q2": {
+          "revenue": 1080.86,
+          "net_profit": 186.66,
+          "gross_margin": 26.6,
+          "kpi": 267.9
+        },
+        "2025Q3": {
+          "revenue": 1012.76,
+          "net_profit": 198.08,
+          "gross_margin": 28.3,
+          "kpi": 159.2,
+          "revenue_yoy": 18.8,
+          "np_yoy": 33.7,
+          "ytd_revenue": 3242.95,
+          "share": 23.9
+        }
+      },
+      "broker": "东岳证券研究所",
+      "h1_2025": {
+        "revenue": 2230.19,
+        "gross_margin": 27.9,
+        "np_yoy": 15.1
+      },
+      "is_peer": false
+    },
+    "远驰汽车": {
+      "industry": "整车",
+      "sector": "新能源",
+      "kpi": "新能源汽车销量",
+      "kpi_unit": "万辆",
+      "kpi_syn": "电动车销量",
+      "extra": "海外销量占比",
+      "extra_value": 13.5,
+      "years": [
+        "2023A",
+        "2024A",
+        "2025E",
+        "2026E",
+        "2027E"
+      ],
+      "revenue": [
+        4100,
+        4787.17,
+        5510.27,
+        6417.98,
+        7621.19
+      ],
+      "net_profit": [
+        483.21,
+        556.84,
+        682.37,
+        815.57,
+        1005.1
+      ],
+      "eps": [
+        26.55,
+        30.6,
+        37.49,
+        44.81,
+        55.23
+      ],
+      "pe": [
+        35.6,
+        30.9,
+        25.2,
+        21.1,
+        17.1
+      ],
+      "gross_margin_year": 20.6,
+      "target_price": 1193.24,
+      "rating": "买入",
+      "quarters": {
+        "2023Q1": {
+          "revenue": 904.2,
+          "net_profit": 128.51,
+          "gross_margin": 21.7,
+          "kpi": 339.5
+        },
+        "2023Q2": {
+          "revenue": 850.16,
+          "net_profit": 112.29,
+          "gross_margin": 22.1,
+          "kpi": 118.8
+        },
+        "2023Q3": {
+          "revenue": 986.17,
+          "net_profit": 118.46,
+          "gross_margin": 20.2,
+          "kpi": 139.6,
+          "revenue_yoy": 10.4,
+          "np_yoy": 22.1,
+          "ytd_revenue": 2740.53,
+          "share": 16.6
+        },
+        "2024Q1": {
+          "revenue": 1333.47,
+          "net_profit": 164.55,
+          "gross_margin": 19.5,
+          "kpi": 333.1
+        },
+        "2024Q2": {
+          "revenue": 1351.67,
+          "net_profit": 177.86,
+          "gross_margin": 19.9,
+          "kpi": 105.7
+        },
+        "2024Q3": {
+          "revenue": 1270.34,
+          "net_profit": 166.5,
+          "gross_margin": 20.7,
+          "kpi": 446.1,
+          "revenue_yoy": -2.9,
+          "np_yoy": 22.7,
+          "ytd_revenue": 3955.48,
+          "share": 13.7
+        },
+        "2025Q1": {
+          "revenue": 1175.05,
+          "net_profit": 157.15,
+          "gross_margin": 21.9,
+          "kpi": 360.7
+        },
+        "2025Q2": {
+          "revenue": 1318.6,
+          "net_profit": 156.53,
+          "gross_margin": 22.0,
+          "kpi": 285.7
+        },
+        "2025Q3": {
+          "revenue": 1579.64,
+          "net_profit": 211.69,
+          "gross_margin": 20.4,
+          "kpi": 121.2,
+          "revenue_yoy": 29.0,
+          "np_yoy": 21.1,
+          "ytd_revenue": 4073.29,
+          "share": 14.0
+        }
+      },
+      "broker": "南山证券研究所",
+      "h1_2025": {
+        "revenue": 2493.65,
+        "gross_margin": 19.3,
+        "np_yoy": -1.1
+      },
+      "is_peer": false
+    },
+    "隆曦光能": {
+      "industry": "光伏",
+      "sector": "新能源",
+      "kpi": "组件出货量",
+      "kpi_unit": "GW",
+      "kpi_syn": "组件发货量",
+      "extra": "海外收入占比",
+      "extra_value": 12.6,
+      "years": [
+        "2023A",
+        "2024A",
+        "2025E",
+        "2026E",
+        "2027E"
+      ],
+      "revenue": [
+        1150,
+        1351.6,
+        1446.69,
+        1594.96,
+        1943.12
+      ],
+      "net_profit": [
+        264.9,
+        262.12,
+        316.48,
+        364.36,
+        425.69
+      ],
+      "eps": [
+        4.14,
+        4.1,
+        4.94,
+        5.69,
+        6.65
+      ],
+      "pe": [
+        36.0,
+        36.4,
+        30.2,
+        26.2,
+        22.4
+      ],
+      "gross_margin_year": 24.1,
+      "target_price": 182.21,
+      "rating": "买入",
+      "quarters": {
+        "2023Q1": {
+          "revenue": 240.26,
+          "net_profit": 53.85,
+          "gross_margin": 24.7,
+          "kpi": 29.4
+        },
+        "2023Q2": {
+          "revenue": 263.16,
+          "net_profit": 61.28,
+          "gross_margin": 24.3,
+          "kpi": 48.6
+        },
+        "2023Q3": {
+          "revenue": 271.66,
+          "net_profit": 54.53,
+          "gross_margin": 24.6,
+          "kpi": 25.9,
+          "revenue_yoy": -4.1,
+          "np_yoy": -8.1,
+          "ytd_revenue": 775.08,
+          "share": 30.1
+        },
+        "2024Q1": {
+          "revenue": 351.92,
+          "net_profit": 72.47,
+          "gross_margin": 25.1,
+          "kpi": 94.8
+        },
+        "2024Q2": {
+          "revenue": 362.38,
+          "net_profit": 79.92,
+          "gross_margin": 24.3,
+          "kpi": 140.8
+        },
+        "2024Q3": {
+          "revenue": 357.85,
+          "net_profit": 67.73,
+          "gross_margin": 24.7,
+          "kpi": 102.8,
+          "revenue_yoy": 31.5,
+          "np_yoy": 16.1,
+          "ytd_revenue": 1072.15,
+          "share": 33.7
+        },
+        "2025Q1": {
+          "revenue": 349.85,
+          "net_profit": 73.41,
+          "gross_margin": 25.8,
+          "kpi": 132.6
+        },
+        "2025Q2": {
+          "revenue": 402.54,
+          "net_profit": 75.9,
+          "gross_margin": 22.5,
+          "kpi": 127.4
+        },
+        "2025Q3": {
+          "revenue": 407.17,
+          "net_profit": 87.38,
+          "gross_margin": 23.6,
+          "kpi": 89.3,
+          "revenue_yoy": -2.4,
+          "np_yoy": 26.9,
+          "ytd_revenue": 1159.56,
+          "share": 37.0
+        }
+      },
+      "broker": "南山证券研究所",
+      "h1_2025": {
+        "revenue": 752.39,
+        "gross_margin": 22.6,
+        "np_yoy": 0.5
+      },
+      "is_peer": false
+    },
+    "华芯微电子": {
+      "industry": "晶圆代工",
+      "sector": "半导体",
+      "kpi": "产能利用率",
+      "kpi_unit": "%",
+      "kpi_syn": "稼动率",
+      "extra": "12英寸晶圆收入占比",
+      "extra_value": 44.1,
+      "years": [
+        "2023A",
+        "2024A",
+        "2025E",
+        "2026E",
+        "2027E"
+      ],
+      "revenue": [
+        520,
+        624.41,
+        692.74,
+        762.79,
+        802.7
+      ],
+      "net_profit": [
+        44.22,
+        48.87,
+        55.7,
+        58.05,
+        68.41
+      ],
+      "eps": [
+        0.37,
+        0.41,
+        0.46,
+        0.48,
+        0.57
+      ],
+      "pe": [
+        27.2,
+        24.6,
+        21.6,
+        20.7,
+        17.6
+      ],
+      "gross_margin_year": 27.6,
+      "target_price": 11.43,
+      "rating": "买入",
+      "quarters": {
+        "2023Q1": {
+          "revenue": 104.16,
+          "net_profit": 8.77,
+          "gross_margin": 26.4,
+          "kpi": 73.4
+        },
+        "2023Q2": {
+          "revenue": 100.43,
+          "net_profit": 8.12,
+          "gross_margin": 29.7,
+          "kpi": 82.5
+        },
+        "2023Q3": {
+          "revenue": 106.52,
+          "net_profit": 9.95,
+          "gross_margin": 27.2,
+          "kpi": 85.3,
+          "revenue_yoy": 33.8,
+          "np_yoy": 40.3,
+          "ytd_revenue": 311.11,
+          "share": 29.2
+        },
+        "2024Q1": {
+          "revenue": 175.41,
+          "net_profit": 15.08,
+          "gross_margin": 29.0,
+          "kpi": 73.7
+        },
+        "2024Q2": {
+          "revenue": 143.86,
+          "net_profit": 11.83,
+          "gross_margin": 26.0,
+          "kpi": 80.5
+        },
+        "2024Q3": {
+          "revenue": 163.12,
+          "net_profit": 12.13,
+          "gross_margin": 27.6,
+          "kpi": 87.6,
+          "revenue_yoy": -2.0,
+          "np_yoy": -5.8,
+          "ytd_revenue": 482.39,
+          "share": 31.6
+        },
+        "2025Q1": {
+          "revenue": 189.68,
+          "net_profit": 15.41,
+          "gross_margin": 27.1,
+          "kpi": 78.0
+        },
+        "2025Q2": {
+          "revenue": 149.87,
+          "net_profit": 10.46,
+          "gross_margin": 26.9,
+          "kpi": 77.5
+        },
+        "2025Q3": {
+          "revenue": 154.91,
+          "net_profit": 13.74,
+          "gross_margin": 25.4,
+          "kpi": 77.2,
+          "revenue_yoy": 18.6,
+          "np_yoy": 41.4,
+          "ytd_revenue": 494.46,
+          "share": 8.4
+        }
+      },
+      "broker": "星辰证券研究所",
+      "h1_2025": {
+        "revenue": 339.55,
+        "gross_margin": 25.6,
+        "np_yoy": 30.1
+      },
+      "is_peer": false
+    },
+    "拓锐装备": {
+      "industry": "半导体设备",
+      "sector": "半导体",
+      "kpi": "新签订单",
+      "kpi_unit": "亿元",
+      "kpi_syn": "新接订单",
+      "extra": "刻蚀设备收入占比",
+      "extra_value": 27.2,
+      "years": [
+        "2023A",
+        "2024A",
+        "2025E",
+        "2026E",
+        "2027E"
+      ],
+      "revenue": [
+        180,
+        216.92,
+        236.62,
+        265.74,
+        295.71
+      ],
+      "net_profit": [
+        42.81,
+        48.19,
+        60.53,
+        59.38,
+        66.43
+      ],
+      "eps": [
+        0.36,
+        0.4,
+        0.5,
+        0.49,
+        0.55
+      ],
+      "pe": [
+        27.3,
+        24.2,
+        19.3,
+        19.7,
+        17.6
+      ],
+      "gross_margin_year": 26.5,
+      "target_price": 12.87,
+      "rating": "买入",
+      "quarters": {
+        "2023Q1": {
+          "revenue": 43.98,
+          "net_profit": 10.37,
+          "gross_margin": 25.9,
+          "kpi": 3.5
+        },
+        "2023Q2": {
+          "revenue": 34.83,
+          "net_profit": 7.38,
+          "gross_margin": 24.9,
+          "kpi": 3.0
+        },
+        "2023Q3": {
+          "revenue": 36.76,
+          "net_profit": 9.59,
+          "gross_margin": 25.6,
+          "kpi": 11.2,
+          "revenue_yoy": 27.3,
+          "np_yoy": 4.0,
+          "ytd_revenue": 115.57,
+          "share": 38.9
+        },
+        "2024Q1": {
+          "revenue": 56.73,
+          "net_profit": 13.66,
+          "gross_margin": 26.4,
+          "kpi": 13.3
+        },
+        "2024Q2": {
+          "revenue": 52.83,
+          "net_profit": 13.08,
+          "gross_margin": 26.0,
+          "kpi": 20.4
+        },
+        "2024Q3": {
+          "revenue": 59.51,
+          "net_profit": 15.52,
+          "gross_margin": 25.8,
+          "kpi": 11.4,
+          "revenue_yoy": 11.5,
+          "np_yoy": 39.5,
+          "ytd_revenue": 169.07,
+          "share": 36.6
+        },
+        "2025Q1": {
+          "revenue": 66.49,
+          "net_profit": 16.43,
+          "gross_margin": 26.8,
+          "kpi": 22.5
+        },
+        "2025Q2": {
+          "revenue": 52.12,
+          "net_profit": 10.58,
+          "gross_margin": 24.7,
+          "kpi": 1.4
+        },
+        "2025Q3": {
+          "revenue": 65.72,
+          "net_profit": 16.73,
+          "gross_margin": 27.6,
+          "kpi": 9.1,
+          "revenue_yoy": 23.1,
+          "np_yoy": -2.3,
+          "ytd_revenue": 184.33,
+          "share": 6.5
+        }
+      },
+      "broker": "南山证券研究所",
+      "h1_2025": {
+        "revenue": 118.61,
+        "gross_margin": 27.1,
+        "np_yoy": 16.9
+      },
+      "is_peer": false
+    },
+    "黔台酒业": {
+      "industry": "白酒",
+      "sector": "消费",
+      "kpi": "直销收入占比",
+      "kpi_unit": "%",
+      "kpi_syn": "直营渠道占比",
+      "extra": "系列酒收入占比",
+      "extra_value": 38.1,
+      "years": [
+        "2023A",
+        "2024A",
+        "2025E",
+        "2026E",
+        "2027E"
+      ],
+      "revenue": [
+        1350,
+        1662.68,
+        2049.37,
+        2255.13,
+        2646.86
+      ],
+      "net_profit": [
+        156.31,
+        184.27,
+        221.82,
+        218.38,
+        282.73
+      ],
+      "eps": [
+        3.56,
+        4.2,
+        5.05,
+        4.97,
+        6.44
+      ],
+      "pe": [
+        25.4,
+        21.5,
+        17.9,
+        18.2,
+        14.0
+      ],
+      "gross_margin_year": 91.7,
+      "target_price": 118.71,
+      "rating": "增持",
+      "quarters": {
+        "2023Q1": {
+          "revenue": 287.21,
+          "net_profit": 29.94,
+          "gross_margin": 87.0,
+          "kpi": 55.0
+        },
+        "2023Q2": {
+          "revenue": 302.36,
+          "net_profit": 34.64,
+          "gross_margin": 87.1,
+          "kpi": 36.3
+        },
+        "2023Q3": {
+          "revenue": 273.38,
+          "net_profit": 30.29,
+          "gross_margin": 85.2,
+          "kpi": 48.5,
+          "revenue_yoy": 0.6,
+          "np_yoy": -5.3,
+          "ytd_revenue": 862.95,
+          "share": 14.8
+        },
+        "2024Q1": {
+          "revenue": 358.07,
+          "net_profit": 39.65,
+          "gross_margin": 86.4,
+          "kpi": 53.5
+        },
+        "2024Q2": {
+          "revenue": 365.76,
+          "net_profit": 40.0,
+          "gross_margin": 91.3,
+          "kpi": 55.0
+        },
+        "2024Q3": {
+          "revenue": 369.01,
+          "net_profit": 35.25,
+          "gross_margin": 89.8,
+          "kpi": 37.4,
+          "revenue_yoy": 29.2,
+          "np_yoy": 39.5,
+          "ytd_revenue": 1092.84,
+          "share": 6.4
+        },
+        "2025Q1": {
+          "revenue": 444.28,
+          "net_profit": 48.32,
+          "gross_margin": 89.6,
+          "kpi": 48.9
+        },
+        "2025Q2": {
+          "revenue": 482.65,
+          "net_profit": 48.06,
+          "gross_margin": 94.4,
+          "kpi": 42.6
+        },
+        "2025Q3": {
+          "revenue": 571.49,
+          "net_profit": 66.2,
+          "gross_margin": 88.0,
+          "kpi": 58.4,
+          "revenue_yoy": 19.6,
+          "np_yoy": 3.0,
+          "ytd_revenue": 1498.42,
+          "share": 38.6
+        }
+      },
+      "broker": "东岳证券研究所",
+      "h1_2025": {
+        "revenue": 926.93,
+        "gross_margin": 84.8,
+        "np_yoy": -9.0
+      },
+      "is_peer": false
+    },
+    "蒙泉乳业": {
+      "industry": "乳制品",
+      "sector": "消费",
+      "kpi": "液态奶收入",
+      "kpi_unit": "亿元",
+      "kpi_syn": "液奶收入",
+      "extra": "奶粉收入占比",
+      "extra_value": 44.3,
+      "years": [
+        "2023A",
+        "2024A",
+        "2025E",
+        "2026E",
+        "2027E"
+      ],
+      "revenue": [
+        1100,
+        1253.35,
+        1509.14,
+        1832.69,
+        2113.68
+      ],
+      "net_profit": [
+        122.82,
+        131.98,
+        170.54,
+        203.25,
+        246.84
+      ],
+      "eps": [
+        2.8,
+        3.01,
+        3.88,
+        4.63,
+        5.62
+      ],
+      "pe": [
+        39.6,
+        36.8,
+        28.5,
+        23.9,
+        19.7
+      ],
+      "gross_margin_year": 43.3,
+      "target_price": 132.17,
+      "rating": "增持",
+      "quarters": {
+        "2023Q1": {
+          "revenue": 251.9,
+          "net_profit": 27.7,
+          "gross_margin": 43.0,
+          "kpi": 39.5
+        },
+        "2023Q2": {
+          "revenue": 269.96,
+          "net_profit": 26.4,
+          "gross_margin": 42.6,
+          "kpi": 74.9
+        },
+        "2023Q3": {
+          "revenue": 277.62,
+          "net_profit": 33.61,
+          "gross_margin": 42.6,
+          "kpi": 67.2,
+          "revenue_yoy": 31.7,
+          "np_yoy": 13.1,
+          "ytd_revenue": 799.48,
+          "share": 28.6
+        },
+        "2024Q1": {
+          "revenue": 296.93,
+          "net_profit": 37.58,
+          "gross_margin": 42.5,
+          "kpi": 112.4
+        },
+        "2024Q2": {
+          "revenue": 355.46,
+          "net_profit": 40.05,
+          "gross_margin": 46.3,
+          "kpi": 89.0
+        },
+        "2024Q3": {
+          "revenue": 286.04,
+          "net_profit": 30.36,
+          "gross_margin": 43.5,
+          "kpi": 10.5,
+          "revenue_yoy": 9.3,
+          "np_yoy": -7.0,
+          "ytd_revenue": 938.43,
+          "share": 14.0
+        },
+        "2025Q1": {
+          "revenue": 428.78,
+          "net_profit": 52.79,
+          "gross_margin": 43.9,
+          "kpi": 83.7
+        },
+        "2025Q2": {
+          "revenue": 333.12,
+          "net_profit": 35.12,
+          "gross_margin": 43.6,
+          "kpi": 132.9
+        },
+        "2025Q3": {
+          "revenue": 358.2,
+          "net_profit": 40.78,
+          "gross_margin": 45.4,
+          "kpi": 128.8,
+          "revenue_yoy": 0.3,
+          "np_yoy": 43.3,
+          "ytd_revenue": 1120.1,
+          "share": 20.9
+        }
+      },
+      "broker": "东岳证券研究所",
+      "h1_2025": {
+        "revenue": 761.9,
+        "gross_margin": 40.5,
+        "np_yoy": 29.2
+      },
+      "is_peer": false
+    },
+    "康衡医药": {
+      "industry": "创新药",
+      "sector": "医药",
+      "kpi": "创新药收入占比",
+      "kpi_unit": "%",
+      "kpi_syn": "新药收入占比",
+      "extra": "研发投入占比",
+      "extra_value": 12.4,
+      "years": [
+        "2023A",
+        "2024A",
+        "2025E",
+        "2026E",
+        "2027E"
+      ],
+      "revenue": [
+        230,
+        253.68,
+        316.29,
+        390.37,
+        469.14
+      ],
+      "net_profit": [
+        42.96,
+        47.55,
+        59.57,
+        77.37,
+        90.41
+      ],
+      "eps": [
+        1.76,
+        1.95,
+        2.44,
+        3.17,
+        3.71
+      ],
+      "pe": [
+        32.0,
+        28.9,
+        23.1,
+        17.8,
+        15.2
+      ],
+      "gross_margin_year": 23.0,
+      "target_price": 63.6,
+      "rating": "增持",
+      "quarters": {
+        "2023Q1": {
+          "revenue": 54.85,
+          "net_profit": 10.88,
+          "gross_margin": 22.7,
+          "kpi": 43.1
+        },
+        "2023Q2": {
+          "revenue": 46.82,
+          "net_profit": 9.08,
+          "gross_margin": 21.4,
+          "kpi": 26.4
+        },
+        "2023Q3": {
+          "revenue": 48.84,
+          "net_profit": 9.58,
+          "gross_margin": 23.8,
+          "kpi": 32.0,
+          "revenue_yoy": 27.1,
+          "np_yoy": -7.1,
+          "ytd_revenue": 150.51,
+          "share": 31.6
+        },
+        "2024Q1": {
+          "revenue": 70.9,
+          "net_profit": 12.89,
+          "gross_margin": 24.1,
+          "kpi": 46.5
+        },
+        "2024Q2": {
+          "revenue": 59.34,
+          "net_profit": 12.97,
+          "gross_margin": 21.6,
+          "kpi": 36.1
+        },
+        "2024Q3": {
+          "revenue": 59.43,
+          "net_profit": 11.81,
+          "gross_margin": 22.5,
+          "kpi": 49.3,
+          "revenue_yoy": 31.1,
+          "np_yoy": 41.9,
+          "ytd_revenue": 189.67,
+          "share": 39.1
+        },
+        "2025Q1": {
+          "revenue": 74.33,
+          "net_profit": 12.86,
+          "gross_margin": 22.3,
+          "kpi": 62.3
+        },
+        "2025Q2": {
+          "revenue": 78.99,
+          "net_profit": 14.38,
+          "gross_margin": 23.5,
+          "kpi": 52.3
+        },
+        "2025Q3": {
+          "revenue": 88.19,
+          "net_profit": 18.43,
+          "gross_margin": 21.8,
+          "kpi": 27.9,
+          "revenue_yoy": 10.1,
+          "np_yoy": -2.5,
+          "ytd_revenue": 241.51,
+          "share": 35.5
+        }
+      },
+      "broker": "星辰证券研究所",
+      "h1_2025": {
+        "revenue": 153.32,
+        "gross_margin": 24.3,
+        "np_yoy": -6.5
+      },
+      "is_peer": false
+    },
+    "江海银行": {
+      "industry": "银行",
+      "sector": "银行",
+      "kpi": "净息差",
+      "kpi_unit": "%",
+      "kpi_syn": "NIM",
+      "extra": "不良贷款率",
+      "extra_value": 1.29,
+      "years": [
+        "2023A",
+        "2024A",
+        "2025E",
+        "2026E",
+        "2027E"
+      ],
+      "revenue": [
+        3300,
+        3544.81,
+        4115.72,
+        4410.76,
+        4816.91
+      ],
+      "net_profit": [
+        1277.27,
+        1445.16,
+        1547.68,
+        1729.9,
+        1985.97
+      ],
+      "eps": [
+        19.96,
+        22.58,
+        24.18,
+        27.03,
+        31.03
+      ],
+      "pe": [
+        26.4,
+        23.3,
+        21.8,
+        19.5,
+        17.0
+      ],
+      "gross_margin_year": 23.7,
+      "target_price": 642.86,
+      "rating": "增持",
+      "quarters": {
+        "2023Q1": {
+          "revenue": 713.19,
+          "net_profit": 251.65,
+          "gross_margin": 24.3,
+          "kpi": 1.4
+        },
+        "2023Q2": {
+          "revenue": 813.2,
+          "net_profit": 377.97,
+          "gross_margin": 24.1,
+          "kpi": 1.57
+        },
+        "2023Q3": {
+          "revenue": 701.29,
+          "net_profit": 327.07,
+          "gross_margin": 25.5,
+          "kpi": 1.67,
+          "revenue_yoy": 4.9,
+          "np_yoy": 31.1,
+          "ytd_revenue": 2227.68,
+          "share": 39.5
+        },
+        "2024Q1": {
+          "revenue": 852.23,
+          "net_profit": 315.26,
+          "gross_margin": 25.0,
+          "kpi": 1.53
+        },
+        "2024Q2": {
+          "revenue": 990.18,
+          "net_profit": 411.25,
+          "gross_margin": 22.2,
+          "kpi": 1.61
+        },
+        "2024Q3": {
+          "revenue": 897.28,
+          "net_profit": 389.08,
+          "gross_margin": 24.7,
+          "kpi": 1.62,
+          "revenue_yoy": 21.0,
+          "np_yoy": 0.5,
+          "ytd_revenue": 2739.69,
+          "share": 15.9
+        },
+        "2025Q1": {
+          "revenue": 915.44,
+          "net_profit": 340.69,
+          "gross_margin": 24.6,
+          "kpi": 1.69
+        },
+        "2025Q2": {
+          "revenue": 997.92,
+          "net_profit": 423.64,
+          "gross_margin": 23.6,
+          "kpi": 1.77
+        },
+        "2025Q3": {
+          "revenue": 1041.61,
+          "net_profit": 384.61,
+          "gross_margin": 22.9,
+          "kpi": 1.71,
+          "revenue_yoy": 28.2,
+          "np_yoy": -10.7,
+          "ytd_revenue": 2954.97,
+          "share": 24.4
+        }
+      },
+      "broker": "东岳证券研究所",
+      "h1_2025": {
+        "revenue": 1913.36,
+        "gross_margin": 22.3,
+        "np_yoy": 13.8
+      },
+      "is_peer": false
+    },
+    "中旭锂电": {
+      "industry": "动力电池",
+      "sector": "新能源",
+      "kpi": "动力电池装车量",
+      "kpi_unit": "GWh",
+      "kpi_syn": "动力电池装机量",
+      "extra": "海外收入占比",
+      "extra_value": 31.3,
+      "years": [
+        "2023A",
+        "2024A",
+        "2025E",
+        "2026E",
+        "2027E"
+      ],
+      "revenue": [
+        1353,
+        1626.73,
+        1962.8,
+        2384.4,
+        2504.84
+      ],
+      "net_profit": [
+        136.5,
+        149.2,
+        207.68,
+        252.67,
+        242.09
+      ],
+      "eps": [
+        4.29,
+        4.69,
+        6.53,
+        7.95,
+        7.61
+      ],
+      "pe": [
+        45.0,
+        41.1,
+        29.6,
+        24.3,
+        25.4
+      ],
+      "gross_margin_year": 26.0,
+      "target_price": 256.5,
+      "rating": "增持",
+      "quarters": {
+        "2023Q1": {
+          "revenue": 319.56,
+          "net_profit": 27.43,
+          "gross_margin": 26.2,
+          "kpi": 104.0
+        },
+        "2023Q2": {
+          "revenue": 302.37,
+          "net_profit": 29.66,
+          "gross_margin": 26.3,
+          "kpi": 10.6
+        },
+        "2023Q3": {
+          "revenue": 271.19,
+          "net_profit": 29.68,
+          "gross_margin": 27.0,
+          "kpi": 6.4,
+          "revenue_yoy": 9.5,
+          "np_yoy": 7.3,
+          "ytd_revenue": 893.12,
+          "share": 35.9
+        },
+        "2024Q1": {
+          "revenue": 405.04,
+          "net_profit": 39.97,
+          "gross_margin": 24.3,
+          "kpi": 101.2
+        },
+        "2024Q2": {
+          "revenue": 437.83,
+          "net_profit": 39.69,
+          "gross_margin": 24.7,
+          "kpi": 50.9
+        },
+        "2024Q3": {
+          "revenue": 396.65,
+          "net_profit": 38.07,
+          "gross_margin": 25.6,
+          "kpi": 104.1,
+          "revenue_yoy": 16.0,
+          "np_yoy": 2.4,
+          "ytd_revenue": 1239.52,
+          "share": 32.5
+        },
+        "2025Q1": {
+          "revenue": 460.36,
+          "net_profit": 47.37,
+          "gross_margin": 24.7,
+          "kpi": 107.1
+        },
+        "2025Q2": {
+          "revenue": 430.6,
+          "net_profit": 37.71,
+          "gross_margin": 27.4,
+          "kpi": 169.5
+        },
+        "2025Q3": {
+          "revenue": 508.52,
+          "net_profit": 46.38,
+          "gross_margin": 25.7,
+          "kpi": 31.0,
+          "revenue_yoy": 33.4,
+          "np_yoy": -14.4,
+          "ytd_revenue": 1399.48,
+          "share": 6.1
+        }
+      },
+      "broker": "东岳证券研究所",
+      "h1_2025": {
+        "revenue": 890.96,
+        "gross_margin": 24.9,
+        "np_yoy": -6.8
+      },
+      "is_peer": true
+    },
+    "国创新能": {
+      "industry": "光伏",
+      "sector": "新能源",
+      "kpi": "组件出货量",
+      "kpi_unit": "GW",
+      "kpi_syn": "组件发货量",
+      "extra": "海外收入占比",
+      "extra_value": 42.7,
+      "years": [
+        "2023A",
+        "2024A",
+        "2025E",
+        "2026E",
+        "2027E"
+      ],
+      "revenue": [
+        527,
+        587.5,
+        646.56,
+        701.63,
+        805.83
+      ],
+      "net_profit": [
+        113.29,
+        121.85,
+        139.0,
+        144.18,
+        166.39
+      ],
+      "eps": [
+        0.94,
+        1.02,
+        1.16,
+        1.2,
+        1.39
+      ],
+      "pe": [
+        40.6,
+        37.8,
+        33.1,
+        31.9,
+        27.7
+      ],
+      "gross_margin_year": 41.6,
+      "target_price": 44.23,
+      "rating": "买入",
+      "quarters": {
+        "2023Q1": {
+          "revenue": 135.95,
+          "net_profit": 34.85,
+          "gross_margin": 43.0,
+          "kpi": 53.0
+        },
+        "2023Q2": {
+          "revenue": 112.77,
+          "net_profit": 26.92,
+          "gross_margin": 41.9,
+          "kpi": 28.7
+        },
+        "2023Q3": {
+          "revenue": 115.31,
+          "net_profit": 29.67,
+          "gross_margin": 39.3,
+          "kpi": 8.6,
+          "revenue_yoy": 12.5,
+          "np_yoy": -7.4,
+          "ytd_revenue": 364.03,
+          "share": 9.4
+        },
+        "2024Q1": {
+          "revenue": 156.91,
+          "net_profit": 35.14,
+          "gross_margin": 40.2,
+          "kpi": 15.4
+        },
+        "2024Q2": {
+          "revenue": 127.98,
+          "net_profit": 25.79,
+          "gross_margin": 38.3,
+          "kpi": 49.0
+        },
+        "2024Q3": {
+          "revenue": 156.61,
+          "net_profit": 31.67,
+          "gross_margin": 43.2,
+          "kpi": 22.6,
+          "revenue_yoy": 1.1,
+          "np_yoy": 10.5,
+          "ytd_revenue": 441.5,
+          "share": 13.3
+        },
+        "2025Q1": {
+          "revenue": 139.53,
+          "net_profit": 33.35,
+          "gross_margin": 43.2,
+          "kpi": 36.0
+        },
+        "2025Q2": {
+          "revenue": 164.89,
+          "net_profit": 38.51,
+          "gross_margin": 41.7,
+          "kpi": 5.8
+        },
+        "2025Q3": {
+          "revenue": 143.29,
+          "net_profit": 35.81,
+          "gross_margin": 39.4,
+          "kpi": 3.1,
+          "revenue_yoy": 7.7,
+          "np_yoy": -3.3,
+          "ytd_revenue": 447.71,
+          "share": 9.0
+        }
+      },
+      "broker": "东岳证券研究所",
+      "h1_2025": {
+        "revenue": 304.42,
+        "gross_margin": 40.0,
+        "np_yoy": 34.1
+      },
+      "is_peer": true
+    },
+    "瑞丰储能": {
+      "industry": "动力电池",
+      "sector": "新能源",
+      "kpi": "动力电池装车量",
+      "kpi_unit": "GWh",
+      "kpi_syn": "动力电池装机量",
+      "extra": "海外收入占比",
+      "extra_value": 39.3,
+      "years": [
+        "2023A",
+        "2024A",
+        "2025E",
+        "2026E",
+        "2027E"
+      ],
+      "revenue": [
+        1251,
+        1382.41,
+        1469.2,
+        1793.55,
+        2032.14
+      ],
+      "net_profit": [
+        118.53,
+        125.31,
+        138.63,
+        158.12,
+        169.69
+      ],
+      "eps": [
+        1.49,
+        1.58,
+        1.74,
+        1.99,
+        2.13
+      ],
+      "pe": [
+        35.3,
+        33.4,
+        30.2,
+        26.5,
+        24.7
+      ],
+      "gross_margin_year": 32.6,
+      "target_price": 58.46,
+      "rating": "买入",
+      "quarters": {
+        "2023Q1": {
+          "revenue": 266.3,
+          "net_profit": 22.61,
+          "gross_margin": 31.9,
+          "kpi": 97.4
+        },
+        "2023Q2": {
+          "revenue": 252.73,
+          "net_profit": 20.71,
+          "gross_margin": 34.1,
+          "kpi": 17.4
+        },
+        "2023Q3": {
+          "revenue": 260.17,
+          "net_profit": 20.34,
+          "gross_margin": 31.1,
+          "kpi": 32.6,
+          "revenue_yoy": -6.8,
+          "np_yoy": -13.2,
+          "ytd_revenue": 779.2,
+          "share": 9.5
+        },
+        "2024Q1": {
+          "revenue": 352.83,
+          "net_profit": 29.22,
+          "gross_margin": 33.9,
+          "kpi": 114.4
+        },
+        "2024Q2": {
+          "revenue": 334.16,
+          "net_profit": 30.58,
+          "gross_margin": 34.7,
+          "kpi": 85.8
+        },
+        "2024Q3": {
+          "revenue": 344.92,
+          "net_profit": 26.51,
+          "gross_margin": 30.8,
+          "kpi": 82.5,
+          "revenue_yoy": 5.9,
+          "np_yoy": 30.6,
+          "ytd_revenue": 1031.91,
+          "share": 34.5
+        },
+        "2025Q1": {
+          "revenue": 348.48,
+          "net_profit": 33.33,
+          "gross_margin": 33.9,
+          "kpi": 94.0
+        },
+        "2025Q2": {
+          "revenue": 320.5,
+          "net_profit": 29.19,
+          "gross_margin": 34.6,
+          "kpi": 86.0
+        },
+        "2025Q3": {
+          "revenue": 334.88,
+          "net_profit": 27.88,
+          "gross_margin": 34.7,
+          "kpi": 42.1,
+          "revenue_yoy": 30.3,
+          "np_yoy": 33.4,
+          "ytd_revenue": 1003.86,
+          "share": 27.7
+        }
+      },
+      "broker": "东岳证券研究所",
+      "h1_2025": {
+        "revenue": 668.98,
+        "gross_margin": 30.2,
+        "np_yoy": 40.3
+      },
+      "is_peer": true
+    },
+    "申微半导体": {
+      "industry": "晶圆代工",
+      "sector": "半导体",
+      "kpi": "产能利用率",
+      "kpi_unit": "%",
+      "kpi_syn": "稼动率",
+      "extra": "12英寸晶圆收入占比",
+      "extra_value": 34.0,
+      "years": [
+        "2023A",
+        "2024A",
+        "2025E",
+        "2026E",
+        "2027E"
+      ],
+      "revenue": [
+        140,
+        159.79,
+        178.42,
+        207.75,
+        254.3
+      ],
+      "net_profit": [
+        35.21,
+        46.19,
+        48.37,
+        56.84,
+        71.63
+      ],
+      "eps": [
+        2.79,
+        3.67,
+        3.84,
+        4.51,
+        5.68
+      ],
+      "pe": [
+        21.0,
+        16.0,
+        15.3,
+        13.0,
+        10.3
+      ],
+      "gross_margin_year": 37.1,
+      "target_price": 74.89,
+      "rating": "增持",
+      "quarters": {
+        "2023Q1": {
+          "revenue": 34.6,
+          "net_profit": 9.92,
+          "gross_margin": 35.2,
+          "kpi": 79.2
+        },
+        "2023Q2": {
+          "revenue": 35.34,
+          "net_profit": 9.34,
+          "gross_margin": 36.1,
+          "kpi": 70.1
+        },
+        "2023Q3": {
+          "revenue": 34.04,
+          "net_profit": 10.07,
+          "gross_margin": 36.1,
+          "kpi": 81.4,
+          "revenue_yoy": 3.0,
+          "np_yoy": 22.4,
+          "ytd_revenue": 103.98,
+          "share": 22.5
+        },
+        "2024Q1": {
+          "revenue": 39.31,
+          "net_profit": 10.22,
+          "gross_margin": 34.7,
+          "kpi": 77.3
+        },
+        "2024Q2": {
+          "revenue": 45.25,
+          "net_profit": 13.42,
+          "gross_margin": 38.6,
+          "kpi": 74.9
+        },
+        "2024Q3": {
+          "revenue": 43.17,
+          "net_profit": 12.43,
+          "gross_margin": 36.3,
+          "kpi": 76.9,
+          "revenue_yoy": 21.2,
+          "np_yoy": 6.8,
+          "ytd_revenue": 127.73,
+          "share": 6.4
+        },
+        "2025Q1": {
+          "revenue": 51.28,
+          "net_profit": 11.71,
+          "gross_margin": 37.2,
+          "kpi": 71.4
+        },
+        "2025Q2": {
+          "revenue": 41.72,
+          "net_profit": 11.95,
+          "gross_margin": 38.7,
+          "kpi": 70.5
+        },
+        "2025Q3": {
+          "revenue": 45.86,
+          "net_profit": 13.11,
+          "gross_margin": 38.6,
+          "kpi": 87.1,
+          "revenue_yoy": 11.2,
+          "np_yoy": -3.7,
+          "ytd_revenue": 138.86,
+          "share": 19.3
+        }
+      },
+      "broker": "南山证券研究所",
+      "h1_2025": {
+        "revenue": 93.0,
+        "gross_margin": 36.2,
+        "np_yoy": 17.8
+      },
+      "is_peer": true
+    },
+    "北辰集成": {
+      "industry": "半导体设备",
+      "sector": "半导体",
+      "kpi": "新签订单",
+      "kpi_unit": "亿元",
+      "kpi_syn": "新接订单",
+      "extra": "刻蚀设备收入占比",
+      "extra_value": 28.0,
+      "years": [
+        "2023A",
+        "2024A",
+        "2025E",
+        "2026E",
+        "2027E"
+      ],
+      "revenue": [
+        36,
+        43.25,
+        53.96,
+        64.62,
+        75.8
+      ],
+      "net_profit": [
+        8.81,
+        9.54,
+        13.82,
+        15.08,
+        17.02
+      ],
+      "eps": [
+        0.2,
+        0.22,
+        0.31,
+        0.34,
+        0.39
+      ],
+      "pe": [
+        47.5,
+        43.8,
+        30.3,
+        27.7,
+        24.6
+      ],
+      "gross_margin_year": 19.6,
+      "target_price": 12.64,
+      "rating": "买入",
+      "quarters": {
+        "2023Q1": {
+          "revenue": 7.95,
+          "net_profit": 1.63,
+          "gross_margin": 18.7,
+          "kpi": 1.9
+        },
+        "2023Q2": {
+          "revenue": 9.02,
+          "net_profit": 2.37,
+          "gross_margin": 20.4,
+          "kpi": 1.3
+        },
+        "2023Q3": {
+          "revenue": 7.61,
+          "net_profit": 1.95,
+          "gross_margin": 20.2,
+          "kpi": 0.2,
+          "revenue_yoy": 7.5,
+          "np_yoy": -5.8,
+          "ytd_revenue": 24.58,
+          "share": 32.3
+        },
+        "2024Q1": {
+          "revenue": 9.62,
+          "net_profit": 2.35,
+          "gross_margin": 19.7,
+          "kpi": 2.2
+        },
+        "2024Q2": {
+          "revenue": 11.21,
+          "net_profit": 2.54,
+          "gross_margin": 20.5,
+          "kpi": 2.8
+        },
+        "2024Q3": {
+          "revenue": 10.71,
+          "net_profit": 2.84,
+          "gross_margin": 18.8,
+          "kpi": 1.6,
+          "revenue_yoy": 0.9,
+          "np_yoy": 16.0,
+          "ytd_revenue": 31.54,
+          "share": 5.7
+        },
+        "2025Q1": {
+          "revenue": 14.05,
+          "net_profit": 3.4,
+          "gross_margin": 19.9,
+          "kpi": 4.4
+        },
+        "2025Q2": {
+          "revenue": 13.42,
+          "net_profit": 2.96,
+          "gross_margin": 18.1,
+          "kpi": 3.7
+        },
+        "2025Q3": {
+          "revenue": 13.7,
+          "net_profit": 3.62,
+          "gross_margin": 18.4,
+          "kpi": 3.6,
+          "revenue_yoy": 18.7,
+          "np_yoy": 3.0,
+          "ytd_revenue": 41.17,
+          "share": 16.2
+        }
+      },
+      "broker": "南山证券研究所",
+      "h1_2025": {
+        "revenue": 27.47,
+        "gross_margin": 20.2,
+        "np_yoy": -3.1
+      },
+      "is_peer": true
+    },
+    "川南酒业": {
+      "industry": "白酒",
+      "sector": "消费",
+      "kpi": "直销收入占比",
+      "kpi_unit": "%",
+      "kpi_syn": "直营渠道占比",
+      "extra": "系列酒收入占比",
+      "extra_value": 11.6,
+      "years": [
+        "2023A",
+        "2024A",
+        "2025E",
+        "2026E",
+        "2027E"
+      ],
+      "revenue": [
+        795,
+        923.29,
+        1013.81,
+        1237.75,
+        1477.01
+      ],
+      "net_profit": [
+        116.66,
+        118.09,
+        150.64,
+        166.39,
+        223.52
+      ],
+      "eps": [
+        3.67,
+        3.71,
+        4.74,
+        5.23,
+        7.03
+      ],
+      "pe": [
+        42.1,
+        41.6,
+        32.6,
+        29.5,
+        22.0
+      ],
+      "gross_margin_year": 90.8,
+      "target_price": 194.07,
+      "rating": "增持",
+      "quarters": {
+        "2023Q1": {
+          "revenue": 191.29,
+          "net_profit": 26.87,
+          "gross_margin": 92.2,
+          "kpi": 38.6
+        },
+        "2023Q2": {
+          "revenue": 184.67,
+          "net_profit": 28.51,
+          "gross_margin": 92.5,
+          "kpi": 25.4
+        },
+        "2023Q3": {
+          "revenue": 185.08,
+          "net_profit": 26.24,
+          "gross_margin": 88.7,
+          "kpi": 49.7,
+          "revenue_yoy": 5.7,
+          "np_yoy": 12.1,
+          "ytd_revenue": 561.04,
+          "share": 5.9
+        },
+        "2024Q1": {
+          "revenue": 222.0,
+          "net_profit": 30.76,
+          "gross_margin": 92.7,
+          "kpi": 40.7
+        },
+        "2024Q2": {
+          "revenue": 243.07,
+          "net_profit": 29.42,
+          "gross_margin": 91.2,
+          "kpi": 53.1
+        },
+        "2024Q3": {
+          "revenue": 223.14,
+          "net_profit": 27.3,
+          "gross_margin": 84.7,
+          "kpi": 28.4,
+          "revenue_yoy": 7.5,
+          "np_yoy": 3.8,
+          "ytd_revenue": 688.21,
+          "share": 30.0
+        },
+        "2025Q1": {
+          "revenue": 269.63,
+          "net_profit": 43.62,
+          "gross_margin": 84.0,
+          "kpi": 34.9
+        },
+        "2025Q2": {
+          "revenue": 268.65,
+          "net_profit": 33.19,
+          "gross_margin": 85.3,
+          "kpi": 25.9
+        },
+        "2025Q3": {
+          "revenue": 262.07,
+          "net_profit": 34.54,
+          "gross_margin": 98.0,
+          "kpi": 33.8,
+          "revenue_yoy": 28.4,
+          "np_yoy": 20.6,
+          "ytd_revenue": 800.35,
+          "share": 11.5
+        }
+      },
+      "broker": "星辰证券研究所",
+      "h1_2025": {
+        "revenue": 538.28,
+        "gross_margin": 89.8,
+        "np_yoy": 37.9
+      },
+      "is_peer": true
+    },
+    "华北乳品": {
+      "industry": "乳制品",
+      "sector": "消费",
+      "kpi": "液态奶收入",
+      "kpi_unit": "亿元",
+      "kpi_syn": "液奶收入",
+      "extra": "奶粉收入占比",
+      "extra_value": 43.3,
+      "years": [
+        "2023A",
+        "2024A",
+        "2025E",
+        "2026E",
+        "2027E"
+      ],
+      "revenue": [
+        470,
+        570.39,
+        666.25,
+        779.17,
+        960.54
+      ],
+      "net_profit": [
+        109.26,
+        142.6,
+        156.9,
+        165.67,
+        233.57
+      ],
+      "eps": [
+        6.0,
+        7.83,
+        8.62,
+        9.1,
+        12.83
+      ],
+      "pe": [
+        29.4,
+        22.5,
+        20.5,
+        19.4,
+        13.7
+      ],
+      "gross_margin_year": 36.0,
+      "target_price": 223.3,
+      "rating": "买入",
+      "quarters": {
+        "2023Q1": {
+          "revenue": 108.76,
+          "net_profit": 24.73,
+          "gross_margin": 35.6,
+          "kpi": 13.9
+        },
+        "2023Q2": {
+          "revenue": 103.97,
+          "net_profit": 22.74,
+          "gross_margin": 37.2,
+          "kpi": 12.9
+        },
+        "2023Q3": {
+          "revenue": 108.01,
+          "net_profit": 23.92,
+          "gross_margin": 33.6,
+          "kpi": 5.9,
+          "revenue_yoy": 19.3,
+          "np_yoy": -2.4,
+          "ytd_revenue": 320.74,
+          "share": 25.9
+        },
+        "2024Q1": {
+          "revenue": 133.07,
+          "net_profit": 26.79,
+          "gross_margin": 34.5,
+          "kpi": 43.7
+        },
+        "2024Q2": {
+          "revenue": 153.3,
+          "net_profit": 36.47,
+          "gross_margin": 33.9,
+          "kpi": 52.3
+        },
+        "2024Q3": {
+          "revenue": 134.71,
+          "net_profit": 30.45,
+          "gross_margin": 35.9,
+          "kpi": 31.1,
+          "revenue_yoy": 5.0,
+          "np_yoy": -8.2,
+          "ytd_revenue": 421.08,
+          "share": 24.4
+        },
+        "2025Q1": {
+          "revenue": 186.2,
+          "net_profit": 41.8,
+          "gross_margin": 37.2,
+          "kpi": 74.0
+        },
+        "2025Q2": {
+          "revenue": 161.7,
+          "net_profit": 41.86,
+          "gross_margin": 33.8,
+          "kpi": 28.4
+        },
+        "2025Q3": {
+          "revenue": 149.63,
+          "net_profit": 35.14,
+          "gross_margin": 38.8,
+          "kpi": 17.4,
+          "revenue_yoy": 1.0,
+          "np_yoy": 34.9,
+          "ytd_revenue": 497.53,
+          "share": 5.3
+        }
+      },
+      "broker": "南山证券研究所",
+      "h1_2025": {
+        "revenue": 347.9,
+        "gross_margin": 35.7,
+        "np_yoy": 35.0
+      },
+      "is_peer": true
+    },
+    "瑞安生物": {
+      "industry": "创新药",
+      "sector": "医药",
+      "kpi": "创新药收入占比",
+      "kpi_unit": "%",
+      "kpi_syn": "新药收入占比",
+      "extra": "研发投入占比",
+      "extra_value": 21.0,
+      "years": [
+        "2023A",
+        "2024A",
+        "2025E",
+        "2026E",
+        "2027E"
+      ],
+      "revenue": [
+        52,
+        63.84,
+        72.69,
+        86.09,
+        99.8
+      ],
+      "net_profit": [
+        14.03,
+        17.37,
+        19.33,
+        20.27,
+        25.5
+      ],
+      "eps": [
+        0.44,
+        0.55,
+        0.61,
+        0.64,
+        0.8
+      ],
+      "pe": [
+        48.1,
+        38.9,
+        34.9,
+        33.3,
+        26.5
+      ],
+      "gross_margin_year": 33.6,
+      "target_price": 25.6,
+      "rating": "增持",
+      "quarters": {
+        "2023Q1": {
+          "revenue": 12.55,
+          "net_profit": 3.47,
+          "gross_margin": 31.5,
+          "kpi": 28.5
+        },
+        "2023Q2": {
+          "revenue": 12.74,
+          "net_profit": 3.22,
+          "gross_margin": 35.1,
+          "kpi": 29.1
+        },
+        "2023Q3": {
+          "revenue": 10.85,
+          "net_profit": 2.63,
+          "gross_margin": 33.9,
+          "kpi": 42.9,
+          "revenue_yoy": -7.9,
+          "np_yoy": 27.8,
+          "ytd_revenue": 36.14,
+          "share": 31.3
+        },
+        "2024Q1": {
+          "revenue": 16.39,
+          "net_profit": 4.18,
+          "gross_margin": 32.4,
+          "kpi": 37.2
+        },
+        "2024Q2": {
+          "revenue": 18.35,
+          "net_profit": 4.25,
+          "gross_margin": 36.1,
+          "kpi": 31.8
+        },
+        "2024Q3": {
+          "revenue": 14.33,
+          "net_profit": 3.37,
+          "gross_margin": 34.1,
+          "kpi": 46.8,
+          "revenue_yoy": 23.5,
+          "np_yoy": 43.0,
+          "ytd_revenue": 49.07,
+          "share": 18.1
+        },
+        "2025Q1": {
+          "revenue": 20.19,
+          "net_profit": 4.62,
+          "gross_margin": 35.8,
+          "kpi": 42.5
+        },
+        "2025Q2": {
+          "revenue": 20.04,
+          "net_profit": 5.03,
+          "gross_margin": 36.2,
+          "kpi": 42.4
+        },
+        "2025Q3": {
+          "revenue": 20.15,
+          "net_profit": 5.96,
+          "gross_margin": 32.0,
+          "kpi": 41.5,
+          "revenue_yoy": 15.5,
+          "np_yoy": 2.0,
+          "ytd_revenue": 60.38,
+          "share": 20.3
+        }
+      },
+      "broker": "东岳证券研究所",
+      "h1_2025": {
+        "revenue": 40.23,
+        "gross_margin": 35.6,
+        "np_yoy": 14.1
+      },
+      "is_peer": true
+    },
+    "海诺制药": {
+      "industry": "创新药",
+      "sector": "医药",
+      "kpi": "创新药收入占比",
+      "kpi_unit": "%",
+      "kpi_syn": "新药收入占比",
+      "extra": "研发投入占比",
+      "extra_value": 38.8,
+      "years": [
+        "2023A",
+        "2024A",
+        "2025E",
+        "2026E",
+        "2027E"
+      ],
+      "revenue": [
+        82,
+        101.78,
+        120.51,
+        126.78,
+        145.74
+      ],
+      "net_profit": [
+        6.57,
+        8.1,
+        10.91,
+        11.38,
+        12.34
+      ],
+      "eps": [
+        0.15,
+        0.18,
+        0.25,
+        0.26,
+        0.28
+      ],
+      "pe": [
+        38.2,
+        31.0,
+        23.0,
+        22.1,
+        20.3
+      ],
+      "gross_margin_year": 32.0,
+      "target_price": 6.56,
+      "rating": "增持",
+      "quarters": {
+        "2023Q1": {
+          "revenue": 19.52,
+          "net_profit": 1.88,
+          "gross_margin": 31.2,
+          "kpi": 43.3
+        },
+        "2023Q2": {
+          "revenue": 18.84,
+          "net_profit": 1.8,
+          "gross_margin": 30.1,
+          "kpi": 41.7
+        },
+        "2023Q3": {
+          "revenue": 18.23,
+          "net_profit": 1.68,
+          "gross_margin": 34.1,
+          "kpi": 36.7,
+          "revenue_yoy": -3.0,
+          "np_yoy": 34.0,
+          "ytd_revenue": 56.59,
+          "share": 37.4
+        },
+        "2024Q1": {
+          "revenue": 25.97,
+          "net_profit": 1.96,
+          "gross_margin": 32.3,
+          "kpi": 46.7
+        },
+        "2024Q2": {
+          "revenue": 23.96,
+          "net_profit": 2.16,
+          "gross_margin": 30.7,
+          "kpi": 60.0
+        },
+        "2024Q3": {
+          "revenue": 25.35,
+          "net_profit": 1.94,
+          "gross_margin": 32.3,
+          "kpi": 55.8,
+          "revenue_yoy": 15.9,
+          "np_yoy": 8.6,
+          "ytd_revenue": 75.28,
+          "share": 32.0
+        },
+        "2025Q1": {
+          "revenue": 28.84,
+          "net_profit": 2.39,
+          "gross_margin": 30.7,
+          "kpi": 61.1
+        },
+        "2025Q2": {
+          "revenue": 25.67,
+          "net_profit": 2.33,
+          "gross_margin": 30.3,
+          "kpi": 39.0
+        },
+        "2025Q3": {
+          "revenue": 29.15,
+          "net_profit": 2.51,
+          "gross_margin": 32.1,
+          "kpi": 64.0,
+          "revenue_yoy": 32.7,
+          "np_yoy": -10.5,
+          "ytd_revenue": 83.66,
+          "share": 7.6
+        }
+      },
+      "broker": "南山证券研究所",
+      "h1_2025": {
+        "revenue": 54.51,
+        "gross_margin": 31.6,
+        "np_yoy": 9.8
+      },
+      "is_peer": true
+    },
+    "东海银行": {
+      "industry": "银行",
+      "sector": "银行",
+      "kpi": "净息差",
+      "kpi_unit": "%",
+      "kpi_syn": "NIM",
+      "extra": "不良贷款率",
+      "extra_value": 0.99,
+      "years": [
+        "2023A",
+        "2024A",
+        "2025E",
+        "2026E",
+        "2027E"
+      ],
+      "revenue": [
+        717,
+        866.56,
+        994.17,
+        1118.69,
+        1321.81
+      ],
+      "net_profit": [
+        262.78,
+        364.77,
+        394.68,
+        413.41,
+        463.45
+      ],
+      "eps": [
+        4.75,
+        6.6,
+        7.14,
+        7.48,
+        8.38
+      ],
+      "pe": [
+        44.7,
+        32.2,
+        29.8,
+        28.4,
+        25.3
+      ],
+      "gross_margin_year": 43.1,
+      "target_price": 263.84,
+      "rating": "买入",
+      "quarters": {
+        "2023Q1": {
+          "revenue": 145.84,
+          "net_profit": 51.77,
+          "gross_margin": 45.6,
+          "kpi": 1.71
+        },
+        "2023Q2": {
+          "revenue": 185.32,
+          "net_profit": 61.5,
+          "gross_margin": 46.0,
+          "kpi": 1.75
+        },
+        "2023Q3": {
+          "revenue": 146.45,
+          "net_profit": 55.06,
+          "gross_margin": 40.6,
+          "kpi": 1.56,
+          "revenue_yoy": -7.7,
+          "np_yoy": 42.0,
+          "ytd_revenue": 477.61,
+          "share": 27.5
+        },
+        "2024Q1": {
+          "revenue": 221.83,
+          "net_profit": 84.0,
+          "gross_margin": 44.8,
+          "kpi": 1.62
+        },
+        "2024Q2": {
+          "revenue": 221.66,
+          "net_profit": 90.49,
+          "gross_margin": 40.0,
+          "kpi": 1.8
+        },
+        "2024Q3": {
+          "revenue": 212.97,
+          "net_profit": 80.18,
+          "gross_margin": 45.6,
+          "kpi": 1.61,
+          "revenue_yoy": 12.1,
+          "np_yoy": 9.5,
+          "ytd_revenue": 656.46,
+          "share": 31.9
+        },
+        "2025Q1": {
+          "revenue": 243.32,
+          "net_profit": 93.77,
+          "gross_margin": 40.6,
+          "kpi": 1.51
+        },
+        "2025Q2": {
+          "revenue": 281.79,
+          "net_profit": 123.6,
+          "gross_margin": 41.1,
+          "kpi": 1.81
+        },
+        "2025Q3": {
+          "revenue": 275.34,
+          "net_profit": 93.95,
+          "gross_margin": 43.6,
+          "kpi": 1.61,
+          "revenue_yoy": 20.5,
+          "np_yoy": -11.2,
+          "ytd_revenue": 800.45,
+          "share": 33.5
+        }
+      },
+      "broker": "东岳证券研究所",
+      "h1_2025": {
+        "revenue": 525.11,
+        "gross_margin": 41.2,
+        "np_yoy": 11.4
+      },
+      "is_peer": true
+    },
+    "滨江农商行": {
+      "industry": "银行",
+      "sector": "银行",
+      "kpi": "净息差",
+      "kpi_unit": "%",
+      "kpi_syn": "NIM",
+      "extra": "不良贷款率",
+      "extra_value": 1.02,
+      "years": [
+        "2023A",
+        "2024A",
+        "2025E",
+        "2026E",
+        "2027E"
+      ],
+      "revenue": [
+        1672,
+        1883.9,
+        2125.14,
+        2235.73,
+        2549.58
+      ],
+      "net_profit": [
+        613.39,
+        668.2,
+        802.39,
+        747.66,
+        882.42
+      ],
+      "eps": [
+        11.09,
+        12.08,
+        14.51,
+        13.52,
+        15.96
+      ],
+      "pe": [
+        41.3,
+        37.9,
+        31.6,
+        33.9,
+        28.7
+      ],
+      "gross_margin_year": 30.8,
+      "target_price": 519.94,
+      "rating": "增持",
+      "quarters": {
+        "2023Q1": {
+          "revenue": 349.62,
+          "net_profit": 135.16,
+          "gross_margin": 29.8,
+          "kpi": 1.81
+        },
+        "2023Q2": {
+          "revenue": 348.59,
+          "net_profit": 146.98,
+          "gross_margin": 33.3,
+          "kpi": 1.77
+        },
+        "2023Q3": {
+          "revenue": 359.4,
+          "net_profit": 141.35,
+          "gross_margin": 28.8,
+          "kpi": 1.88,
+          "revenue_yoy": 31.9,
+          "np_yoy": 15.2,
+          "ytd_revenue": 1057.61,
+          "share": 37.8
+        },
+        "2024Q1": {
+          "revenue": 484.2,
+          "net_profit": 189.01,
+          "gross_margin": 33.1,
+          "kpi": 1.59
+        },
+        "2024Q2": {
+          "revenue": 413.31,
+          "net_profit": 130.36,
+          "gross_margin": 33.1,
+          "kpi": 1.64
+        },
+        "2024Q3": {
+          "revenue": 446.92,
+          "net_profit": 171.02,
+          "gross_margin": 30.6,
+          "kpi": 1.76,
+          "revenue_yoy": -4.7,
+          "np_yoy": 17.8,
+          "ytd_revenue": 1344.43,
+          "share": 19.1
+        },
+        "2025Q1": {
+          "revenue": 454.87,
+          "net_profit": 166.75,
+          "gross_margin": 28.8,
+          "kpi": 1.6
+        },
+        "2025Q2": {
+          "revenue": 456.56,
+          "net_profit": 152.25,
+          "gross_margin": 29.7,
+          "kpi": 1.52
+        },
+        "2025Q3": {
+          "revenue": 600.03,
+          "net_profit": 197.41,
+          "gross_margin": 29.5,
+          "kpi": 1.58,
+          "revenue_yoy": -6.5,
+          "np_yoy": -14.0,
+          "ytd_revenue": 1511.46,
+          "share": 38.4
+        }
+      },
+      "broker": "星辰证券研究所",
+      "h1_2025": {
+        "revenue": 911.43,
+        "gross_margin": 29.6,
+        "np_yoy": 40.9
+      },
+      "is_peer": true
+    }
+  },
+  "sector_tables": {
+    "新能源": [
+      {
+        "company": "宁川动力",
+        "share": 27.3,
+        "growth": 10.6
+      },
+      {
+        "company": "国创新能",
+        "share": 21.6,
+        "growth": 31.1
+      },
+      {
+        "company": "远驰汽车",
+        "share": 16.3,
+        "growth": -9.2
+      },
+      {
+        "company": "隆曦光能",
+        "share": 13.4,
+        "growth": -1.8
+      },
+      {
+        "company": "中旭锂电",
+        "share": 8.9,
+        "growth": 8.4
+      },
+      {
+        "company": "瑞丰储能",
+        "share": 4.8,
+        "growth": 0.4
+      }
+    ],
+    "半导体": [
+      {
+        "company": "北辰集成",
+        "share": 15.2,
+        "growth": -0.3
+      },
+      {
+        "company": "华芯微电子",
+        "share": 11.4,
+        "growth": 17.0
+      },
+      {
+        "company": "拓锐装备",
+        "share": 11.2,
+        "growth": -0.7
+      },
+      {
+        "company": "申微半导体",
+        "share": 5.0,
+        "growth": -9.8
+      }
+    ],
+    "消费": [
+      {
+        "company": "蒙泉乳业",
+        "share": 19.8,
+        "growth": 24.2
+      },
+      {
+        "company": "黔台酒业",
+        "share": 19.8,
+        "growth": 38.5
+      },
+      {
+        "company": "川南酒业",
+        "share": 19.2,
+        "growth": 25.4
+      },
+      {
+        "company": "华北乳品",
+        "share": 18.2,
+        "growth": 28.2
+      }
+    ],
+    "医药": [
+      {
+        "company": "康衡医药",
+        "share": 24.2,
+        "growth": -3.1
+      },
+      {
+        "company": "海诺制药",
+        "share": 10.5,
+        "growth": -3.0
+      },
+      {
+        "company": "瑞安生物",
+        "share": 6.4,
+        "growth": -6.5
+      }
+    ],
+    "银行": [
+      {
+        "company": "滨江农商行",
+        "share": 28.4,
+        "growth": 25.2
+      },
+      {
+        "company": "江海银行",
+        "share": 17.7,
+        "growth": 33.2
+      },
+      {
+        "company": "东海银行",
+        "share": 4.7,
+        "growth": 39.7
+      }
+    ]
+  }
+}

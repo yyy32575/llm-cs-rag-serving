@@ -1,0 +1,34 @@
+# LLaMA-Factory 对照配置（可选）：llamafactory-cli train configs/llamafactory_sft_qlora.yaml
+# 用于验证自写 TRL 脚本与 LLaMA-Factory 的结果是否一致（面试可说“两套实现交叉验证过”）
+model_name_or_path: Qwen/Qwen3-8B
+trust_remote_code: true
+stage: sft
+do_train: true
+finetuning_type: lora
+lora_rank: 16
+lora_alpha: 32
+lora_dropout: 0.05
+lora_target: q_proj,v_proj
+quantization_bit: 4
+quantization_method: bitsandbytes
+dataset_dir: data
+dataset: ecs_sft
+template: qwen3
+enable_thinking: false
+cutoff_len: 1024
+overwrite_cache: true
+preprocessing_num_workers: 8
+output_dir: outputs/lf_sft_qlora_r16
+logging_steps: 10
+save_strategy: epoch
+plot_loss: true
+per_device_train_batch_size: 2
+gradient_accumulation_steps: 8
+learning_rate: 2.0e-4
+num_train_epochs: 3.0
+lr_scheduler_type: cosine
+warmup_ratio: 0.03
+bf16: true
+val_size: 0.05
+eval_strategy: steps
+eval_steps: 100

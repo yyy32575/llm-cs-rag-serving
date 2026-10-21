@@ -1,0 +1,91 @@
+{
+  "0_baseline": {
+    "n": 120,
+    "success_rate": 1.0,
+    "p95_ms": 1355.9,
+    "served_by": {
+      "primary": 120
+    },
+    "http_429": 0,
+    "cache_hit_rate": 0.0
+  },
+  "1_upstream_error": {
+    "n": 160,
+    "success_rate": 1.0,
+    "p95_ms": 624.9,
+    "served_by": {
+      "fallback": 160
+    },
+    "http_429": 0,
+    "cache_hit_rate": 0.0,
+    "breaker": {
+      "state": "open",
+      "reason": "error_rate=0.30",
+      "trips": 1,
+      "window_events": 172
+    },
+    "recovery_s_after_fault_cleared": 4.9
+  },
+  "2_slow_decode": {
+    "n": 120,
+    "success_rate": 1.0,
+    "p95_ms": 5249.0,
+    "served_by": {
+      "primary": 19,
+      "fallback": 101
+    },
+    "http_429": 0,
+    "cache_hit_rate": 0.0,
+    "breaker": {
+      "state": "open",
+      "reason": "p95=5841ms>2000ms",
+      "trips": 2,
+      "window_events": 27
+    }
+  },
+  "3_burst_3x": {
+    "n": 600,
+    "success_rate": 0.205,
+    "p95_ms": 1898.3,
+    "served_by": {
+      "http_429": 477,
+      "fallback": 123
+    },
+    "http_429": 477,
+    "cache_hit_rate": 0.0
+  },
+  "4_hot_query": {
+    "n": 200,
+    "success_rate": 1.0,
+    "p95_ms": 54.2,
+    "served_by": {
+      "http_200": 200
+    },
+    "http_429": 0,
+    "cache_hit_rate": 1.0
+  },
+  "final_stats": {
+    "window_s": 60,
+    "requests": 1079,
+    "qps": 17.98,
+    "avg_latency_ms": 333.8,
+    "p50_ms": 0.0,
+    "p95_ms": 1422.1,
+    "p99_ms": 4794.7,
+    "error_rate": 0.4421,
+    "cache_hit_rate": 0.1854,
+    "routes": {
+      "cs": 602,
+      "ratelimited": 477
+    },
+    "cache_backend": "local-lru",
+    "cache_hit_rate_total": 1.0,
+    "rate_limited_total": 477,
+    "circuit_breaker": {
+      "state": "open",
+      "reason": "p95=5841ms>2000ms",
+      "trips": 2,
+      "window_events": 27
+    }
+  }
+}
